@@ -88,8 +88,17 @@ screens = {
 	},]]
 }
 
+options = {
+	on = enableFramelock;
+	off = disableFramelock;
+}
+
 if #arg < 1 then
 	-- call main function
 	enableFramelock()
+elseif options[arg[1]] ~= nil then
+	options[arg[1]]()
+else
+	error("Unrecognized option " .. arg[1])
 end
 
