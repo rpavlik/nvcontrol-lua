@@ -42,6 +42,9 @@ function enableFramelock()
 	print_step("4. Configure the house sync (if applicable)")
 	apply_to_all(disableHouseSync, framelocks)
 
+	print_step("4.5. Enable Sync to VBlank (recommended by NVidia, according to the C6 scripts)")
+	apply_to_all_screens(function(screen) screen:setSyncToVBlank(true) end)
+
 	print_step("5. Configure the slave display devices.")
 	apply_to_nonmaster_screens(function(screen) screen:setFramelockRole("Slaves") end)
 
