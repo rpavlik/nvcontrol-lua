@@ -1,9 +1,7 @@
 #!/usr/bin/env lua
 
 --[[ Main Function ]]--
-function configureFramelock()
-	configureScreens()
-
+function enableFramelock()
 	--[[ General Process:
 	1.	Disable frame lock on all Quadros.
 	2.	Make sure all display devices that are to be frame- locked have the same refresh rate.
