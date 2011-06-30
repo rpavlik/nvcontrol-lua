@@ -57,6 +57,11 @@ function enableFramelock()
 	print_step("8.	Test the hardware connections using the test signal on the master Quadro. (SKIPPED)")
 end
 
+function disableFramelock()
+	print_step("1.	Disable frame lock on all Quadros.")
+	apply_to_all_screens(function(screen) screen:setFramelock(false) end)
+end
+
 --[[ Utility Functions and "Innards" ]]--
 function do_command(cmd)
 	print("Running: " .. cmd)
