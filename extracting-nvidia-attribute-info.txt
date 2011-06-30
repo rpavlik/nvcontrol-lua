@@ -1,0 +1,9 @@
+# Grab all attribute names
+nvidia-settings -q all | grep --only-matching -E "'[a-zA-Z]+'"
+
+# Grab the names of all attributes that are "read-only"
+nvidia-settings -q all | grep "read-only" | grep --only-matching -E "'[a-zA-Z]+'" | sort | uniq > readonly.txt
+
+# Compare those files to find the names of the attributes that are read-write
+comm -23 allattributes.txt readonly.txt > readwrite.txt
+

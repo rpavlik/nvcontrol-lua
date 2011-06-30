@@ -1,0 +1,3295 @@
+
+Attributes queryable via challenger.vrac.iastate.edu:0.0:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0.0): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvControlVersion' (challenger.vrac.iastate.edu:0.0): 1.26 
+    'NvControlVersion' is a string attribute.
+    'NvControlVersion' is a read-only attribute.
+    'NvControlVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXServerVersion' (challenger.vrac.iastate.edu:0.0): 1.4 
+    'GLXServerVersion' is a string attribute.
+    'GLXServerVersion' is a read-only attribute.
+    'GLXServerVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXClientVersion' (challenger.vrac.iastate.edu:0.0): 1.4 
+    'GLXClientVersion' is a string attribute.
+    'GLXClientVersion' is a read-only attribute.
+    'GLXClientVersion' can use the following target types: X Screen.
+
+  Attribute 'OpenGLVersion' (challenger.vrac.iastate.edu:0.0): 4.1.0 NVIDIA 270.41.03 
+    'OpenGLVersion' is a string attribute.
+    'OpenGLVersion' is a read-only attribute.
+    'OpenGLVersion' can use the following target types: X Screen.
+
+  Attribute 'XRandRVersion' (challenger.vrac.iastate.edu:0.0): 1.3 
+    'XRandRVersion' is a string attribute.
+    'XRandRVersion' is a read-only attribute.
+    'XRandRVersion' can use the following target types: X Screen.
+
+  Attribute 'XF86VidModeVersion' (challenger.vrac.iastate.edu:0.0): 2.2 
+    'XF86VidModeVersion' is a string attribute.
+    'XF86VidModeVersion' is a read-only attribute.
+    'XF86VidModeVersion' can use the following target types: X Screen.
+
+  Attribute 'XvVersion' (challenger.vrac.iastate.edu:0.0): 2.2 
+    'XvVersion' is a string attribute.
+    'XvVersion' is a read-only attribute.
+    'XvVersion' can use the following target types: X Screen.
+
+  Attribute 'Ubb' (challenger.vrac.iastate.edu:0.0): 0.
+    'Ubb' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Ubb' is a read-only attribute.
+    'Ubb' can use the following target types: X Screen.
+
+  Attribute 'Overlay' (challenger.vrac.iastate.edu:0.0): 0.
+    'Overlay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Overlay' is a read-only attribute.
+    'Overlay' can use the following target types: X Screen.
+
+  Attribute 'Stereo' (challenger.vrac.iastate.edu:0.0): 0.
+    'Stereo' is an integer attribute.
+    'Stereo' is a read-only attribute.
+    'Stereo' can use the following target types: X Screen.
+
+  Attribute 'TwinView' (challenger.vrac.iastate.edu:0.0): 0.
+    'TwinView' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TwinView' is a read-only attribute.
+    'TwinView' can use the following target types: X Screen.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0.0): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0.0): 0x00010000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'CursorShadow' (challenger.vrac.iastate.edu:0.0): 0.
+    'CursorShadow' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CursorShadow' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowAlpha' (challenger.vrac.iastate.edu:0.0): 64.
+    The valid values for 'CursorShadowAlpha' are in the range 0 - 254 (inclusive).
+    'CursorShadowAlpha' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowRed' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'CursorShadowRed' are in the range 0 - 255 (inclusive).
+    'CursorShadowRed' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowGreen' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'CursorShadowGreen' are in the range 0 - 255 (inclusive).
+    'CursorShadowGreen' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowBlue' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'CursorShadowBlue' are in the range 0 - 255 (inclusive).
+    'CursorShadowBlue' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowXOffset' (challenger.vrac.iastate.edu:0.0): 4.
+    The valid values for 'CursorShadowXOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowXOffset' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowYOffset' (challenger.vrac.iastate.edu:0.0): 2.
+    The valid values for 'CursorShadowYOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowYOffset' can use the following target types: X Screen.
+
+  Attribute 'AssociatedDisplays' (challenger.vrac.iastate.edu:0.0): 0x00010000.
+    'AssociatedDisplays' is a bitmask attribute.
+    'AssociatedDisplays' can use the following target types: X Screen.
+
+  Attribute 'InitialPixmapPlacement' (challenger.vrac.iastate.edu:0.0): 2.
+    The valid values for 'InitialPixmapPlacement' are in the range 0 - 4 (inclusive).
+    'InitialPixmapPlacement' can use the following target types: X Screen.
+
+  Attribute 'DynamicTwinview' (challenger.vrac.iastate.edu:0.0): 1.
+    'DynamicTwinview' is an integer attribute.
+    'DynamicTwinview' is a read-only attribute.
+    'DynamicTwinview' can use the following target types: X Screen.
+
+  Attribute 'MultiGpuDisplayOwner' (challenger.vrac.iastate.edu:0.0): 0.
+    'MultiGpuDisplayOwner' is an integer attribute.
+    'MultiGpuDisplayOwner' is a read-only attribute.
+    'MultiGpuDisplayOwner' can use the following target types: X Screen.
+
+  Attribute 'GlyphCache' (challenger.vrac.iastate.edu:0.0): 1.
+    'GlyphCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GlyphCache' can use the following target types: X Screen.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0.0): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0.0): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'XServerUniqueId' (challenger.vrac.iastate.edu:0.0): -1004582472.
+    'XServerUniqueId' is an integer attribute.
+    'XServerUniqueId' is a read-only attribute.
+    'XServerUniqueId' can use the following target types: X Screen.
+
+  Attribute 'PixmapCache' (challenger.vrac.iastate.edu:0.0): 1.
+    'PixmapCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'PixmapCache' can use the following target types: X Screen.
+
+  Attribute 'PixmapCacheRoundSizeKB' (challenger.vrac.iastate.edu:0.0): 1024.
+    The valid values for 'PixmapCacheRoundSizeKB' are in the range 4 - 1048576 (inclusive).
+    'PixmapCacheRoundSizeKB' can use the following target types: X Screen.
+
+  Attribute 'AccelerateTrapezoids' (challenger.vrac.iastate.edu:0.0): 1.
+    'AccelerateTrapezoids' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AccelerateTrapezoids' can use the following target types: X Screen.
+
+  Attribute 'SyncToVBlank' (challenger.vrac.iastate.edu:0.0): 0.
+    'SyncToVBlank' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'LogAniso' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'LogAniso' are in the range 0 - 4 (inclusive).
+    'LogAniso' can use the following target types: X Screen.
+
+  Attribute 'FSAA' (challenger.vrac.iastate.edu:0.0): 0.
+    Valid values for 'FSAA' are: 0, 1, 5, 7, 8, 9, 10, 11, 12 and 13.
+    'FSAA' can use the following target types: X Screen.
+
+  Attribute 'TextureSharpen' (challenger.vrac.iastate.edu:0.0): 0.
+    'TextureSharpen' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TextureSharpen' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALines' (challenger.vrac.iastate.edu:0.0): 0.
+    'GammaCorrectedAALines' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GammaCorrectedAALines' can use the following target types: X Screen.
+
+  Attribute 'AllowFlipping' (challenger.vrac.iastate.edu:0.0): 1.
+    'AllowFlipping' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AllowFlipping' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppControlled' (challenger.vrac.iastate.edu:0.0): 1.
+    'FSAAAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppControlled' can use the following target types: X Screen.
+
+  Attribute 'LogAnisoAppControlled' (challenger.vrac.iastate.edu:0.0): 1.
+    'LogAnisoAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'LogAnisoAppControlled' can use the following target types: X Screen.
+
+  Attribute 'OpenGLImageSettings' (challenger.vrac.iastate.edu:0.0): 1.
+    The valid values for 'OpenGLImageSettings' are in the range 0 - 3 (inclusive).
+    'OpenGLImageSettings' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppEnhanced' (challenger.vrac.iastate.edu:0.0): 0.
+    'FSAAAppEnhanced' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppEnhanced' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALinesValue' (challenger.vrac.iastate.edu:0.0): 16.
+    The valid values for 'GammaCorrectedAALinesValue' are in the range 1 - 100 (inclusive).
+    'GammaCorrectedAALinesValue' can use the following target types: X Screen.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0.0): 1.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0.0): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0.0): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0.0): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0.0): 47.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0.0): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0.0): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0.0): 61.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0.0): 43.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0.0): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0.0): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0.0): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0.0): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0.0): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0.0): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0.0): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0.0): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0.0): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUErrors' (challenger.vrac.iastate.edu:0.0): 0.
+    'GPUErrors' is an integer attribute.
+    'GPUErrors' is a read-only attribute.
+    'GPUErrors' can use the following target types: X Screen.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0.0): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0.0): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0.0): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0.0): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0.0): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0.0): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0.0): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0.0): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0.0): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0.0): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0.0): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockPolarity' (challenger.vrac.iastate.edu:0.0): 0x00000002.
+    'FrameLockPolarity' is a bitmask attribute.
+    'FrameLockPolarity' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelay' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'FrameLockSyncDelay' are in the range 0 - 65535 (inclusive).
+    'FrameLockSyncDelay' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncInterval' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'FrameLockSyncInterval' are in the range 0 - 7 (inclusive).
+    'FrameLockSyncInterval' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort0Status' (challenger.vrac.iastate.edu:0.0): 1.
+    'FrameLockPort0Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort0Status' is a read-only attribute.
+    'FrameLockPort0Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort1Status' (challenger.vrac.iastate.edu:0.0): 1.
+    'FrameLockPort1Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort1Status' is a read-only attribute.
+    'FrameLockPort1Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockHouseStatus' (challenger.vrac.iastate.edu:0.0): 0.
+    'FrameLockHouseStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockHouseStatus' is a read-only attribute.
+    'FrameLockHouseStatus' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncReady' (challenger.vrac.iastate.edu:0.0): 1.
+    'FrameLockSyncReady' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockSyncReady' is a read-only attribute.
+    'FrameLockSyncReady' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0.0): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockTestSignal' (challenger.vrac.iastate.edu:0.0): 0.
+    'FrameLockTestSignal' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTestSignal' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockEthDetected' (challenger.vrac.iastate.edu:0.0): 0x00000000.
+    'FrameLockEthDetected' is a bitmask attribute.
+    'FrameLockEthDetected' is a read-only attribute.
+    'FrameLockEthDetected' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockVideoMode' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'FrameLockVideoMode' are in the range 0 - 3 (inclusive).
+    'FrameLockVideoMode' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate' (challenger.vrac.iastate.edu:0.0): 59971.
+    'FrameLockSyncRate' is an integer attribute.
+    'FrameLockSyncRate' is a read-only attribute.
+    'FrameLockSyncRate' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0.0): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FramelockUseHouseSync' (challenger.vrac.iastate.edu:0.0): 0.
+    'FramelockUseHouseSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FramelockUseHouseSync' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'GvoSupported' (challenger.vrac.iastate.edu:0.0): 0.
+    'GvoSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GvoSupported' is a read-only attribute.
+    'GvoSupported' can use the following target types: X Screen.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0.0; display device: DFP-0): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'XVideoTextureBrightness' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'XVideoTextureBrightness' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureBrightness' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureContrast' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'XVideoTextureContrast' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureContrast' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureHue' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'XVideoTextureHue' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureHue' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSaturation' (challenger.vrac.iastate.edu:0.0): 0.
+    The valid values for 'XVideoTextureSaturation' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureSaturation' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSyncToVBlank' (challenger.vrac.iastate.edu:0.0): 1.
+    The valid values for 'XVideoTextureSyncToVBlank' are in the range 0 - 1 (inclusive).
+    'XVideoTextureSyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'XVideoSyncToDisplay' (challenger.vrac.iastate.edu:0.0): 0x00010000.
+    'XVideoSyncToDisplay' is a bitmask attribute.
+    'XVideoSyncToDisplay' can use the following target types: X Screen.
+
+Attributes queryable via challenger.vrac.iastate.edu:0.1:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0.1): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvControlVersion' (challenger.vrac.iastate.edu:0.1): 1.26 
+    'NvControlVersion' is a string attribute.
+    'NvControlVersion' is a read-only attribute.
+    'NvControlVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXServerVersion' (challenger.vrac.iastate.edu:0.1): 1.4 
+    'GLXServerVersion' is a string attribute.
+    'GLXServerVersion' is a read-only attribute.
+    'GLXServerVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXClientVersion' (challenger.vrac.iastate.edu:0.1): 1.4 
+    'GLXClientVersion' is a string attribute.
+    'GLXClientVersion' is a read-only attribute.
+    'GLXClientVersion' can use the following target types: X Screen.
+
+  Attribute 'OpenGLVersion' (challenger.vrac.iastate.edu:0.1): 4.1.0 NVIDIA 270.41.03 
+    'OpenGLVersion' is a string attribute.
+    'OpenGLVersion' is a read-only attribute.
+    'OpenGLVersion' can use the following target types: X Screen.
+
+  Attribute 'XRandRVersion' (challenger.vrac.iastate.edu:0.1): 1.3 
+    'XRandRVersion' is a string attribute.
+    'XRandRVersion' is a read-only attribute.
+    'XRandRVersion' can use the following target types: X Screen.
+
+  Attribute 'XF86VidModeVersion' (challenger.vrac.iastate.edu:0.1): 2.2 
+    'XF86VidModeVersion' is a string attribute.
+    'XF86VidModeVersion' is a read-only attribute.
+    'XF86VidModeVersion' can use the following target types: X Screen.
+
+  Attribute 'XvVersion' (challenger.vrac.iastate.edu:0.1): 2.2 
+    'XvVersion' is a string attribute.
+    'XvVersion' is a read-only attribute.
+    'XvVersion' can use the following target types: X Screen.
+
+  Attribute 'Ubb' (challenger.vrac.iastate.edu:0.1): 0.
+    'Ubb' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Ubb' is a read-only attribute.
+    'Ubb' can use the following target types: X Screen.
+
+  Attribute 'Overlay' (challenger.vrac.iastate.edu:0.1): 0.
+    'Overlay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Overlay' is a read-only attribute.
+    'Overlay' can use the following target types: X Screen.
+
+  Attribute 'Stereo' (challenger.vrac.iastate.edu:0.1): 0.
+    'Stereo' is an integer attribute.
+    'Stereo' is a read-only attribute.
+    'Stereo' can use the following target types: X Screen.
+
+  Attribute 'TwinView' (challenger.vrac.iastate.edu:0.1): 0.
+    'TwinView' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TwinView' is a read-only attribute.
+    'TwinView' can use the following target types: X Screen.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0.1): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0.1): 0x00020000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'CursorShadow' (challenger.vrac.iastate.edu:0.1): 0.
+    'CursorShadow' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CursorShadow' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowAlpha' (challenger.vrac.iastate.edu:0.1): 64.
+    The valid values for 'CursorShadowAlpha' are in the range 0 - 254 (inclusive).
+    'CursorShadowAlpha' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowRed' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'CursorShadowRed' are in the range 0 - 255 (inclusive).
+    'CursorShadowRed' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowGreen' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'CursorShadowGreen' are in the range 0 - 255 (inclusive).
+    'CursorShadowGreen' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowBlue' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'CursorShadowBlue' are in the range 0 - 255 (inclusive).
+    'CursorShadowBlue' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowXOffset' (challenger.vrac.iastate.edu:0.1): 4.
+    The valid values for 'CursorShadowXOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowXOffset' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowYOffset' (challenger.vrac.iastate.edu:0.1): 2.
+    The valid values for 'CursorShadowYOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowYOffset' can use the following target types: X Screen.
+
+  Attribute 'AssociatedDisplays' (challenger.vrac.iastate.edu:0.1): 0x00020000.
+    'AssociatedDisplays' is a bitmask attribute.
+    'AssociatedDisplays' can use the following target types: X Screen.
+
+  Attribute 'InitialPixmapPlacement' (challenger.vrac.iastate.edu:0.1): 2.
+    The valid values for 'InitialPixmapPlacement' are in the range 0 - 4 (inclusive).
+    'InitialPixmapPlacement' can use the following target types: X Screen.
+
+  Attribute 'DynamicTwinview' (challenger.vrac.iastate.edu:0.1): 1.
+    'DynamicTwinview' is an integer attribute.
+    'DynamicTwinview' is a read-only attribute.
+    'DynamicTwinview' can use the following target types: X Screen.
+
+  Attribute 'MultiGpuDisplayOwner' (challenger.vrac.iastate.edu:0.1): 0.
+    'MultiGpuDisplayOwner' is an integer attribute.
+    'MultiGpuDisplayOwner' is a read-only attribute.
+    'MultiGpuDisplayOwner' can use the following target types: X Screen.
+
+  Attribute 'GlyphCache' (challenger.vrac.iastate.edu:0.1): 1.
+    'GlyphCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GlyphCache' can use the following target types: X Screen.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0.1): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0.1): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'XServerUniqueId' (challenger.vrac.iastate.edu:0.1): -1004582472.
+    'XServerUniqueId' is an integer attribute.
+    'XServerUniqueId' is a read-only attribute.
+    'XServerUniqueId' can use the following target types: X Screen.
+
+  Attribute 'PixmapCache' (challenger.vrac.iastate.edu:0.1): 1.
+    'PixmapCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'PixmapCache' can use the following target types: X Screen.
+
+  Attribute 'PixmapCacheRoundSizeKB' (challenger.vrac.iastate.edu:0.1): 1024.
+    The valid values for 'PixmapCacheRoundSizeKB' are in the range 4 - 1048576 (inclusive).
+    'PixmapCacheRoundSizeKB' can use the following target types: X Screen.
+
+  Attribute 'AccelerateTrapezoids' (challenger.vrac.iastate.edu:0.1): 1.
+    'AccelerateTrapezoids' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AccelerateTrapezoids' can use the following target types: X Screen.
+
+  Attribute 'SyncToVBlank' (challenger.vrac.iastate.edu:0.1): 0.
+    'SyncToVBlank' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'LogAniso' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'LogAniso' are in the range 0 - 4 (inclusive).
+    'LogAniso' can use the following target types: X Screen.
+
+  Attribute 'FSAA' (challenger.vrac.iastate.edu:0.1): 0.
+    Valid values for 'FSAA' are: 0, 1, 5, 7, 8, 9, 10, 11, 12 and 13.
+    'FSAA' can use the following target types: X Screen.
+
+  Attribute 'TextureSharpen' (challenger.vrac.iastate.edu:0.1): 0.
+    'TextureSharpen' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TextureSharpen' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALines' (challenger.vrac.iastate.edu:0.1): 0.
+    'GammaCorrectedAALines' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GammaCorrectedAALines' can use the following target types: X Screen.
+
+  Attribute 'AllowFlipping' (challenger.vrac.iastate.edu:0.1): 1.
+    'AllowFlipping' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AllowFlipping' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppControlled' (challenger.vrac.iastate.edu:0.1): 1.
+    'FSAAAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppControlled' can use the following target types: X Screen.
+
+  Attribute 'LogAnisoAppControlled' (challenger.vrac.iastate.edu:0.1): 1.
+    'LogAnisoAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'LogAnisoAppControlled' can use the following target types: X Screen.
+
+  Attribute 'OpenGLImageSettings' (challenger.vrac.iastate.edu:0.1): 1.
+    The valid values for 'OpenGLImageSettings' are in the range 0 - 3 (inclusive).
+    'OpenGLImageSettings' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppEnhanced' (challenger.vrac.iastate.edu:0.1): 0.
+    'FSAAAppEnhanced' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppEnhanced' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALinesValue' (challenger.vrac.iastate.edu:0.1): 16.
+    The valid values for 'GammaCorrectedAALinesValue' are in the range 1 - 100 (inclusive).
+    'GammaCorrectedAALinesValue' can use the following target types: X Screen.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0.1): 1.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0.1): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0.1): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0.1): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0.1): 47.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0.1): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0.1): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0.1): 61.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0.1): 43.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0.1): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0.1): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0.1): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0.1): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0.1): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0.1): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0.1): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0.1): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0.1): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUErrors' (challenger.vrac.iastate.edu:0.1): 0.
+    'GPUErrors' is an integer attribute.
+    'GPUErrors' is a read-only attribute.
+    'GPUErrors' can use the following target types: X Screen.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0.1): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0.1): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0.1): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0.1): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0.1): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0.1): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0.1): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0.1): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0.1): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0.1): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0.1): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockPolarity' (challenger.vrac.iastate.edu:0.1): 0x00000002.
+    'FrameLockPolarity' is a bitmask attribute.
+    'FrameLockPolarity' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelay' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'FrameLockSyncDelay' are in the range 0 - 65535 (inclusive).
+    'FrameLockSyncDelay' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncInterval' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'FrameLockSyncInterval' are in the range 0 - 7 (inclusive).
+    'FrameLockSyncInterval' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort0Status' (challenger.vrac.iastate.edu:0.1): 1.
+    'FrameLockPort0Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort0Status' is a read-only attribute.
+    'FrameLockPort0Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort1Status' (challenger.vrac.iastate.edu:0.1): 1.
+    'FrameLockPort1Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort1Status' is a read-only attribute.
+    'FrameLockPort1Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockHouseStatus' (challenger.vrac.iastate.edu:0.1): 0.
+    'FrameLockHouseStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockHouseStatus' is a read-only attribute.
+    'FrameLockHouseStatus' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncReady' (challenger.vrac.iastate.edu:0.1): 1.
+    'FrameLockSyncReady' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockSyncReady' is a read-only attribute.
+    'FrameLockSyncReady' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0.1): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockTestSignal' (challenger.vrac.iastate.edu:0.1): 0.
+    'FrameLockTestSignal' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTestSignal' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockEthDetected' (challenger.vrac.iastate.edu:0.1): 0x00000000.
+    'FrameLockEthDetected' is a bitmask attribute.
+    'FrameLockEthDetected' is a read-only attribute.
+    'FrameLockEthDetected' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockVideoMode' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'FrameLockVideoMode' are in the range 0 - 3 (inclusive).
+    'FrameLockVideoMode' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate' (challenger.vrac.iastate.edu:0.1): 59971.
+    'FrameLockSyncRate' is an integer attribute.
+    'FrameLockSyncRate' is a read-only attribute.
+    'FrameLockSyncRate' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0.1): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FramelockUseHouseSync' (challenger.vrac.iastate.edu:0.1): 0.
+    'FramelockUseHouseSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FramelockUseHouseSync' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'GvoSupported' (challenger.vrac.iastate.edu:0.1): 0.
+    'GvoSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GvoSupported' is a read-only attribute.
+    'GvoSupported' can use the following target types: X Screen.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0.1; display device: DFP-1): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'XVideoTextureBrightness' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'XVideoTextureBrightness' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureBrightness' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureContrast' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'XVideoTextureContrast' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureContrast' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureHue' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'XVideoTextureHue' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureHue' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSaturation' (challenger.vrac.iastate.edu:0.1): 0.
+    The valid values for 'XVideoTextureSaturation' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureSaturation' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSyncToVBlank' (challenger.vrac.iastate.edu:0.1): 1.
+    The valid values for 'XVideoTextureSyncToVBlank' are in the range 0 - 1 (inclusive).
+    'XVideoTextureSyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'XVideoSyncToDisplay' (challenger.vrac.iastate.edu:0.1): 0x00020000.
+    'XVideoSyncToDisplay' is a bitmask attribute.
+    'XVideoSyncToDisplay' can use the following target types: X Screen.
+
+Attributes queryable via challenger.vrac.iastate.edu:0.2:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0.2): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvControlVersion' (challenger.vrac.iastate.edu:0.2): 1.26 
+    'NvControlVersion' is a string attribute.
+    'NvControlVersion' is a read-only attribute.
+    'NvControlVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXServerVersion' (challenger.vrac.iastate.edu:0.2): 1.4 
+    'GLXServerVersion' is a string attribute.
+    'GLXServerVersion' is a read-only attribute.
+    'GLXServerVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXClientVersion' (challenger.vrac.iastate.edu:0.2): 1.4 
+    'GLXClientVersion' is a string attribute.
+    'GLXClientVersion' is a read-only attribute.
+    'GLXClientVersion' can use the following target types: X Screen.
+
+  Attribute 'OpenGLVersion' (challenger.vrac.iastate.edu:0.2): 4.1.0 NVIDIA 270.41.03 
+    'OpenGLVersion' is a string attribute.
+    'OpenGLVersion' is a read-only attribute.
+    'OpenGLVersion' can use the following target types: X Screen.
+
+  Attribute 'XRandRVersion' (challenger.vrac.iastate.edu:0.2): 1.3 
+    'XRandRVersion' is a string attribute.
+    'XRandRVersion' is a read-only attribute.
+    'XRandRVersion' can use the following target types: X Screen.
+
+  Attribute 'XF86VidModeVersion' (challenger.vrac.iastate.edu:0.2): 2.2 
+    'XF86VidModeVersion' is a string attribute.
+    'XF86VidModeVersion' is a read-only attribute.
+    'XF86VidModeVersion' can use the following target types: X Screen.
+
+  Attribute 'XvVersion' (challenger.vrac.iastate.edu:0.2): 2.2 
+    'XvVersion' is a string attribute.
+    'XvVersion' is a read-only attribute.
+    'XvVersion' can use the following target types: X Screen.
+
+  Attribute 'Ubb' (challenger.vrac.iastate.edu:0.2): 0.
+    'Ubb' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Ubb' is a read-only attribute.
+    'Ubb' can use the following target types: X Screen.
+
+  Attribute 'Overlay' (challenger.vrac.iastate.edu:0.2): 0.
+    'Overlay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Overlay' is a read-only attribute.
+    'Overlay' can use the following target types: X Screen.
+
+  Attribute 'Stereo' (challenger.vrac.iastate.edu:0.2): 0.
+    'Stereo' is an integer attribute.
+    'Stereo' is a read-only attribute.
+    'Stereo' can use the following target types: X Screen.
+
+  Attribute 'TwinView' (challenger.vrac.iastate.edu:0.2): 0.
+    'TwinView' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TwinView' is a read-only attribute.
+    'TwinView' can use the following target types: X Screen.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0.2): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0.2): 0x00010000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'CursorShadow' (challenger.vrac.iastate.edu:0.2): 0.
+    'CursorShadow' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CursorShadow' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowAlpha' (challenger.vrac.iastate.edu:0.2): 64.
+    The valid values for 'CursorShadowAlpha' are in the range 0 - 254 (inclusive).
+    'CursorShadowAlpha' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowRed' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'CursorShadowRed' are in the range 0 - 255 (inclusive).
+    'CursorShadowRed' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowGreen' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'CursorShadowGreen' are in the range 0 - 255 (inclusive).
+    'CursorShadowGreen' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowBlue' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'CursorShadowBlue' are in the range 0 - 255 (inclusive).
+    'CursorShadowBlue' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowXOffset' (challenger.vrac.iastate.edu:0.2): 4.
+    The valid values for 'CursorShadowXOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowXOffset' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowYOffset' (challenger.vrac.iastate.edu:0.2): 2.
+    The valid values for 'CursorShadowYOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowYOffset' can use the following target types: X Screen.
+
+  Attribute 'AssociatedDisplays' (challenger.vrac.iastate.edu:0.2): 0x00010000.
+    'AssociatedDisplays' is a bitmask attribute.
+    'AssociatedDisplays' can use the following target types: X Screen.
+
+  Attribute 'InitialPixmapPlacement' (challenger.vrac.iastate.edu:0.2): 2.
+    The valid values for 'InitialPixmapPlacement' are in the range 0 - 4 (inclusive).
+    'InitialPixmapPlacement' can use the following target types: X Screen.
+
+  Attribute 'DynamicTwinview' (challenger.vrac.iastate.edu:0.2): 1.
+    'DynamicTwinview' is an integer attribute.
+    'DynamicTwinview' is a read-only attribute.
+    'DynamicTwinview' can use the following target types: X Screen.
+
+  Attribute 'MultiGpuDisplayOwner' (challenger.vrac.iastate.edu:0.2): 1.
+    'MultiGpuDisplayOwner' is an integer attribute.
+    'MultiGpuDisplayOwner' is a read-only attribute.
+    'MultiGpuDisplayOwner' can use the following target types: X Screen.
+
+  Attribute 'GlyphCache' (challenger.vrac.iastate.edu:0.2): 1.
+    'GlyphCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GlyphCache' can use the following target types: X Screen.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0.2): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0.2): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'XServerUniqueId' (challenger.vrac.iastate.edu:0.2): -1004582472.
+    'XServerUniqueId' is an integer attribute.
+    'XServerUniqueId' is a read-only attribute.
+    'XServerUniqueId' can use the following target types: X Screen.
+
+  Attribute 'PixmapCache' (challenger.vrac.iastate.edu:0.2): 1.
+    'PixmapCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'PixmapCache' can use the following target types: X Screen.
+
+  Attribute 'PixmapCacheRoundSizeKB' (challenger.vrac.iastate.edu:0.2): 1024.
+    The valid values for 'PixmapCacheRoundSizeKB' are in the range 4 - 1048576 (inclusive).
+    'PixmapCacheRoundSizeKB' can use the following target types: X Screen.
+
+  Attribute 'AccelerateTrapezoids' (challenger.vrac.iastate.edu:0.2): 1.
+    'AccelerateTrapezoids' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AccelerateTrapezoids' can use the following target types: X Screen.
+
+  Attribute 'SyncToVBlank' (challenger.vrac.iastate.edu:0.2): 0.
+    'SyncToVBlank' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'LogAniso' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'LogAniso' are in the range 0 - 4 (inclusive).
+    'LogAniso' can use the following target types: X Screen.
+
+  Attribute 'FSAA' (challenger.vrac.iastate.edu:0.2): 0.
+    Valid values for 'FSAA' are: 0, 1, 5, 7, 8, 9, 10, 11, 12 and 13.
+    'FSAA' can use the following target types: X Screen.
+
+  Attribute 'TextureSharpen' (challenger.vrac.iastate.edu:0.2): 0.
+    'TextureSharpen' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TextureSharpen' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALines' (challenger.vrac.iastate.edu:0.2): 0.
+    'GammaCorrectedAALines' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GammaCorrectedAALines' can use the following target types: X Screen.
+
+  Attribute 'AllowFlipping' (challenger.vrac.iastate.edu:0.2): 1.
+    'AllowFlipping' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AllowFlipping' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppControlled' (challenger.vrac.iastate.edu:0.2): 1.
+    'FSAAAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppControlled' can use the following target types: X Screen.
+
+  Attribute 'LogAnisoAppControlled' (challenger.vrac.iastate.edu:0.2): 1.
+    'LogAnisoAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'LogAnisoAppControlled' can use the following target types: X Screen.
+
+  Attribute 'OpenGLImageSettings' (challenger.vrac.iastate.edu:0.2): 1.
+    The valid values for 'OpenGLImageSettings' are in the range 0 - 3 (inclusive).
+    'OpenGLImageSettings' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppEnhanced' (challenger.vrac.iastate.edu:0.2): 0.
+    'FSAAAppEnhanced' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppEnhanced' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALinesValue' (challenger.vrac.iastate.edu:0.2): 16.
+    The valid values for 'GammaCorrectedAALinesValue' are in the range 1 - 100 (inclusive).
+    'GammaCorrectedAALinesValue' can use the following target types: X Screen.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0.2): 0.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0.2): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0.2): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0.2): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0.2): 38.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0.2): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0.2): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0.2): 0.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0.2): 0.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0.2): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0.2): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0.2): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0.2): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0.2): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0.2): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0.2): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0.2): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0.2): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUErrors' (challenger.vrac.iastate.edu:0.2): 0.
+    'GPUErrors' is an integer attribute.
+    'GPUErrors' is a read-only attribute.
+    'GPUErrors' can use the following target types: X Screen.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0.2): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0.2): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0.2): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0.2): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0.2): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0.2): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0.2): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0.2): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0.2): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0.2): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0.2): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockPolarity' (challenger.vrac.iastate.edu:0.2): 0x00000002.
+    'FrameLockPolarity' is a bitmask attribute.
+    'FrameLockPolarity' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelay' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'FrameLockSyncDelay' are in the range 0 - 65535 (inclusive).
+    'FrameLockSyncDelay' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncInterval' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'FrameLockSyncInterval' are in the range 0 - 7 (inclusive).
+    'FrameLockSyncInterval' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort0Status' (challenger.vrac.iastate.edu:0.2): 1.
+    'FrameLockPort0Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort0Status' is a read-only attribute.
+    'FrameLockPort0Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort1Status' (challenger.vrac.iastate.edu:0.2): 1.
+    'FrameLockPort1Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort1Status' is a read-only attribute.
+    'FrameLockPort1Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockHouseStatus' (challenger.vrac.iastate.edu:0.2): 0.
+    'FrameLockHouseStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockHouseStatus' is a read-only attribute.
+    'FrameLockHouseStatus' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncReady' (challenger.vrac.iastate.edu:0.2): 1.
+    'FrameLockSyncReady' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockSyncReady' is a read-only attribute.
+    'FrameLockSyncReady' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0.2): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockEthDetected' (challenger.vrac.iastate.edu:0.2): 0x00000000.
+    'FrameLockEthDetected' is a bitmask attribute.
+    'FrameLockEthDetected' is a read-only attribute.
+    'FrameLockEthDetected' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockVideoMode' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'FrameLockVideoMode' are in the range 0 - 3 (inclusive).
+    'FrameLockVideoMode' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate' (challenger.vrac.iastate.edu:0.2): 59971.
+    'FrameLockSyncRate' is an integer attribute.
+    'FrameLockSyncRate' is a read-only attribute.
+    'FrameLockSyncRate' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0.2): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FramelockUseHouseSync' (challenger.vrac.iastate.edu:0.2): 0.
+    'FramelockUseHouseSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FramelockUseHouseSync' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'GvoSupported' (challenger.vrac.iastate.edu:0.2): 0.
+    'GvoSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GvoSupported' is a read-only attribute.
+    'GvoSupported' can use the following target types: X Screen.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0.2; display device: DFP-0): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'XVideoTextureBrightness' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'XVideoTextureBrightness' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureBrightness' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureContrast' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'XVideoTextureContrast' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureContrast' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureHue' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'XVideoTextureHue' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureHue' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSaturation' (challenger.vrac.iastate.edu:0.2): 0.
+    The valid values for 'XVideoTextureSaturation' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureSaturation' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSyncToVBlank' (challenger.vrac.iastate.edu:0.2): 1.
+    The valid values for 'XVideoTextureSyncToVBlank' are in the range 0 - 1 (inclusive).
+    'XVideoTextureSyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'XVideoSyncToDisplay' (challenger.vrac.iastate.edu:0.2): 0x00010000.
+    'XVideoSyncToDisplay' is a bitmask attribute.
+    'XVideoSyncToDisplay' can use the following target types: X Screen.
+
+Attributes queryable via challenger.vrac.iastate.edu:0.3:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0.3): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvControlVersion' (challenger.vrac.iastate.edu:0.3): 1.26 
+    'NvControlVersion' is a string attribute.
+    'NvControlVersion' is a read-only attribute.
+    'NvControlVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXServerVersion' (challenger.vrac.iastate.edu:0.3): 1.4 
+    'GLXServerVersion' is a string attribute.
+    'GLXServerVersion' is a read-only attribute.
+    'GLXServerVersion' can use the following target types: X Screen.
+
+  Attribute 'GLXClientVersion' (challenger.vrac.iastate.edu:0.3): 1.4 
+    'GLXClientVersion' is a string attribute.
+    'GLXClientVersion' is a read-only attribute.
+    'GLXClientVersion' can use the following target types: X Screen.
+
+  Attribute 'OpenGLVersion' (challenger.vrac.iastate.edu:0.3): 4.1.0 NVIDIA 270.41.03 
+    'OpenGLVersion' is a string attribute.
+    'OpenGLVersion' is a read-only attribute.
+    'OpenGLVersion' can use the following target types: X Screen.
+
+  Attribute 'XRandRVersion' (challenger.vrac.iastate.edu:0.3): 1.3 
+    'XRandRVersion' is a string attribute.
+    'XRandRVersion' is a read-only attribute.
+    'XRandRVersion' can use the following target types: X Screen.
+
+  Attribute 'XF86VidModeVersion' (challenger.vrac.iastate.edu:0.3): 2.2 
+    'XF86VidModeVersion' is a string attribute.
+    'XF86VidModeVersion' is a read-only attribute.
+    'XF86VidModeVersion' can use the following target types: X Screen.
+
+  Attribute 'XvVersion' (challenger.vrac.iastate.edu:0.3): 2.2 
+    'XvVersion' is a string attribute.
+    'XvVersion' is a read-only attribute.
+    'XvVersion' can use the following target types: X Screen.
+
+  Attribute 'Ubb' (challenger.vrac.iastate.edu:0.3): 0.
+    'Ubb' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Ubb' is a read-only attribute.
+    'Ubb' can use the following target types: X Screen.
+
+  Attribute 'Overlay' (challenger.vrac.iastate.edu:0.3): 0.
+    'Overlay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Overlay' is a read-only attribute.
+    'Overlay' can use the following target types: X Screen.
+
+  Attribute 'Stereo' (challenger.vrac.iastate.edu:0.3): 0.
+    'Stereo' is an integer attribute.
+    'Stereo' is a read-only attribute.
+    'Stereo' can use the following target types: X Screen.
+
+  Attribute 'TwinView' (challenger.vrac.iastate.edu:0.3): 0.
+    'TwinView' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TwinView' is a read-only attribute.
+    'TwinView' can use the following target types: X Screen.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0.3): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0.3): 0x00020000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'CursorShadow' (challenger.vrac.iastate.edu:0.3): 0.
+    'CursorShadow' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CursorShadow' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowAlpha' (challenger.vrac.iastate.edu:0.3): 64.
+    The valid values for 'CursorShadowAlpha' are in the range 0 - 254 (inclusive).
+    'CursorShadowAlpha' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowRed' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'CursorShadowRed' are in the range 0 - 255 (inclusive).
+    'CursorShadowRed' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowGreen' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'CursorShadowGreen' are in the range 0 - 255 (inclusive).
+    'CursorShadowGreen' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowBlue' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'CursorShadowBlue' are in the range 0 - 255 (inclusive).
+    'CursorShadowBlue' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowXOffset' (challenger.vrac.iastate.edu:0.3): 4.
+    The valid values for 'CursorShadowXOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowXOffset' can use the following target types: X Screen.
+
+  Attribute 'CursorShadowYOffset' (challenger.vrac.iastate.edu:0.3): 2.
+    The valid values for 'CursorShadowYOffset' are in the range 0 - 32 (inclusive).
+    'CursorShadowYOffset' can use the following target types: X Screen.
+
+  Attribute 'AssociatedDisplays' (challenger.vrac.iastate.edu:0.3): 0x00020000.
+    'AssociatedDisplays' is a bitmask attribute.
+    'AssociatedDisplays' can use the following target types: X Screen.
+
+  Attribute 'InitialPixmapPlacement' (challenger.vrac.iastate.edu:0.3): 2.
+    The valid values for 'InitialPixmapPlacement' are in the range 0 - 4 (inclusive).
+    'InitialPixmapPlacement' can use the following target types: X Screen.
+
+  Attribute 'DynamicTwinview' (challenger.vrac.iastate.edu:0.3): 1.
+    'DynamicTwinview' is an integer attribute.
+    'DynamicTwinview' is a read-only attribute.
+    'DynamicTwinview' can use the following target types: X Screen.
+
+  Attribute 'MultiGpuDisplayOwner' (challenger.vrac.iastate.edu:0.3): 1.
+    'MultiGpuDisplayOwner' is an integer attribute.
+    'MultiGpuDisplayOwner' is a read-only attribute.
+    'MultiGpuDisplayOwner' can use the following target types: X Screen.
+
+  Attribute 'GlyphCache' (challenger.vrac.iastate.edu:0.3): 1.
+    'GlyphCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GlyphCache' can use the following target types: X Screen.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0.3): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0.3): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'XServerUniqueId' (challenger.vrac.iastate.edu:0.3): -1004582472.
+    'XServerUniqueId' is an integer attribute.
+    'XServerUniqueId' is a read-only attribute.
+    'XServerUniqueId' can use the following target types: X Screen.
+
+  Attribute 'PixmapCache' (challenger.vrac.iastate.edu:0.3): 1.
+    'PixmapCache' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'PixmapCache' can use the following target types: X Screen.
+
+  Attribute 'PixmapCacheRoundSizeKB' (challenger.vrac.iastate.edu:0.3): 1024.
+    The valid values for 'PixmapCacheRoundSizeKB' are in the range 4 - 1048576 (inclusive).
+    'PixmapCacheRoundSizeKB' can use the following target types: X Screen.
+
+  Attribute 'AccelerateTrapezoids' (challenger.vrac.iastate.edu:0.3): 1.
+    'AccelerateTrapezoids' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AccelerateTrapezoids' can use the following target types: X Screen.
+
+  Attribute 'SyncToVBlank' (challenger.vrac.iastate.edu:0.3): 0.
+    'SyncToVBlank' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'LogAniso' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'LogAniso' are in the range 0 - 4 (inclusive).
+    'LogAniso' can use the following target types: X Screen.
+
+  Attribute 'FSAA' (challenger.vrac.iastate.edu:0.3): 0.
+    Valid values for 'FSAA' are: 0, 1, 5, 7, 8, 9, 10, 11, 12 and 13.
+    'FSAA' can use the following target types: X Screen.
+
+  Attribute 'TextureSharpen' (challenger.vrac.iastate.edu:0.3): 0.
+    'TextureSharpen' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'TextureSharpen' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALines' (challenger.vrac.iastate.edu:0.3): 0.
+    'GammaCorrectedAALines' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GammaCorrectedAALines' can use the following target types: X Screen.
+
+  Attribute 'AllowFlipping' (challenger.vrac.iastate.edu:0.3): 1.
+    'AllowFlipping' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'AllowFlipping' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppControlled' (challenger.vrac.iastate.edu:0.3): 1.
+    'FSAAAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppControlled' can use the following target types: X Screen.
+
+  Attribute 'LogAnisoAppControlled' (challenger.vrac.iastate.edu:0.3): 1.
+    'LogAnisoAppControlled' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'LogAnisoAppControlled' can use the following target types: X Screen.
+
+  Attribute 'OpenGLImageSettings' (challenger.vrac.iastate.edu:0.3): 1.
+    The valid values for 'OpenGLImageSettings' are in the range 0 - 3 (inclusive).
+    'OpenGLImageSettings' can use the following target types: X Screen.
+
+  Attribute 'FSAAAppEnhanced' (challenger.vrac.iastate.edu:0.3): 0.
+    'FSAAAppEnhanced' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FSAAAppEnhanced' can use the following target types: X Screen.
+
+  Attribute 'GammaCorrectedAALinesValue' (challenger.vrac.iastate.edu:0.3): 16.
+    The valid values for 'GammaCorrectedAALinesValue' are in the range 1 - 100 (inclusive).
+    'GammaCorrectedAALinesValue' can use the following target types: X Screen.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0.3): 0.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0.3): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0.3): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0.3): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0.3): 38.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0.3): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0.3): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0.3): 0.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0.3): 0.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0.3): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0.3): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0.3): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0.3): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0.3): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0.3): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0.3): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0.3): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0.3): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUErrors' (challenger.vrac.iastate.edu:0.3): 0.
+    'GPUErrors' is an integer attribute.
+    'GPUErrors' is a read-only attribute.
+    'GPUErrors' can use the following target types: X Screen.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0.3): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0.3): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0.3): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0.3): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0.3): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0.3): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0.3): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0.3): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0.3): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0.3): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0.3): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockPolarity' (challenger.vrac.iastate.edu:0.3): 0x00000002.
+    'FrameLockPolarity' is a bitmask attribute.
+    'FrameLockPolarity' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelay' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'FrameLockSyncDelay' are in the range 0 - 65535 (inclusive).
+    'FrameLockSyncDelay' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncInterval' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'FrameLockSyncInterval' are in the range 0 - 7 (inclusive).
+    'FrameLockSyncInterval' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort0Status' (challenger.vrac.iastate.edu:0.3): 1.
+    'FrameLockPort0Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort0Status' is a read-only attribute.
+    'FrameLockPort0Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort1Status' (challenger.vrac.iastate.edu:0.3): 1.
+    'FrameLockPort1Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort1Status' is a read-only attribute.
+    'FrameLockPort1Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockHouseStatus' (challenger.vrac.iastate.edu:0.3): 0.
+    'FrameLockHouseStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockHouseStatus' is a read-only attribute.
+    'FrameLockHouseStatus' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncReady' (challenger.vrac.iastate.edu:0.3): 1.
+    'FrameLockSyncReady' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockSyncReady' is a read-only attribute.
+    'FrameLockSyncReady' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0.3): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockEthDetected' (challenger.vrac.iastate.edu:0.3): 0x00000000.
+    'FrameLockEthDetected' is a bitmask attribute.
+    'FrameLockEthDetected' is a read-only attribute.
+    'FrameLockEthDetected' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockVideoMode' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'FrameLockVideoMode' are in the range 0 - 3 (inclusive).
+    'FrameLockVideoMode' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate' (challenger.vrac.iastate.edu:0.3): 59971.
+    'FrameLockSyncRate' is an integer attribute.
+    'FrameLockSyncRate' is a read-only attribute.
+    'FrameLockSyncRate' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0.3): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FramelockUseHouseSync' (challenger.vrac.iastate.edu:0.3): 0.
+    'FramelockUseHouseSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FramelockUseHouseSync' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'GvoSupported' (challenger.vrac.iastate.edu:0.3): 0.
+    'GvoSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GvoSupported' is a read-only attribute.
+    'GvoSupported' can use the following target types: X Screen.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0.3; display device: DFP-1): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'XVideoTextureBrightness' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'XVideoTextureBrightness' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureBrightness' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureContrast' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'XVideoTextureContrast' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureContrast' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureHue' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'XVideoTextureHue' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureHue' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSaturation' (challenger.vrac.iastate.edu:0.3): 0.
+    The valid values for 'XVideoTextureSaturation' are in the range -1000 - 1000 (inclusive).
+    'XVideoTextureSaturation' can use the following target types: X Screen.
+
+  Attribute 'XVideoTextureSyncToVBlank' (challenger.vrac.iastate.edu:0.3): 1.
+    The valid values for 'XVideoTextureSyncToVBlank' are in the range 0 - 1 (inclusive).
+    'XVideoTextureSyncToVBlank' can use the following target types: X Screen.
+
+  Attribute 'XVideoSyncToDisplay' (challenger.vrac.iastate.edu:0.3): 0x00020000.
+    'XVideoSyncToDisplay' is a bitmask attribute.
+    'XVideoSyncToDisplay' can use the following target types: X Screen.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[gpu:0]:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0[gpu:0]): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0[gpu:0]): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0[gpu:0]): 0x00030000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0[gpu:0]): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0[gpu:0]): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0[gpu:0]): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0[gpu:0]): 47.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0[gpu:0]): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0[gpu:0]): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0[gpu:0]): 62.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0[gpu:0]): 43.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0[gpu:0]): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0[gpu:0]): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0[gpu:0]): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIDomain' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'PCIDomain' is an integer attribute.
+    'PCIDomain' is a read-only attribute.
+    'PCIDomain' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIBus' (challenger.vrac.iastate.edu:0[gpu:0]): 12.
+    'PCIBus' is an integer attribute.
+    'PCIBus' is a read-only attribute.
+    'PCIBus' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIDevice' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'PCIDevice' is an integer attribute.
+    'PCIDevice' is a read-only attribute.
+    'PCIDevice' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIFunc' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'PCIFunc' is an integer attribute.
+    'PCIFunc' is a read-only attribute.
+    'PCIFunc' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIID' (challenger.vrac.iastate.edu:0[gpu:0]): 4318,4251.
+    'PCIID' is a packed integer attribute.
+    'PCIID' is a read-only attribute.
+    'PCIID' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0[gpu:0]): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0[gpu:0]): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0[gpu:0]): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPowerMizerMode' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'GPUPowerMizerMode' is an integer attribute.
+    'GPUPowerMizerMode' can use the following target types: GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockMaster' (challenger.vrac.iastate.edu:0[gpu:0]): 0x00020000.
+    'FrameLockMaster' is a bitmask attribute.
+    'FrameLockMaster' can use the following target types: GPU.
+
+  Attribute 'FrameLockEnable' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'FrameLockEnable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockEnable' can use the following target types: GPU.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockTestSignal' (challenger.vrac.iastate.edu:0[gpu:0]): 0.
+    'FrameLockTestSignal' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTestSignal' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0[gpu:0]): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockSlaves' (challenger.vrac.iastate.edu:0[gpu:0]): 0x00010000.
+    'FrameLockSlaves' is a bitmask attribute.
+    'FrameLockSlaves' can use the following target types: GPU.
+
+  Attribute 'FrameLockMasterable' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0x00000000.
+    'FrameLockMasterable' is a bitmask attribute.
+    'FrameLockMasterable' is a read-only attribute.
+    'FrameLockMasterable' is display device specific.
+    'FrameLockMasterable' can use the following target types: GPU.
+
+  Attribute 'FrameLockMasterable' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0x00020000.
+    'FrameLockMasterable' is a bitmask attribute.
+    'FrameLockMasterable' is a read-only attribute.
+    'FrameLockMasterable' is display device specific.
+    'FrameLockMasterable' can use the following target types: GPU.
+
+  Attribute 'FrameLockSlaveable' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0x00010000.
+    'FrameLockSlaveable' is a bitmask attribute.
+    'FrameLockSlaveable' is a read-only attribute.
+    'FrameLockSlaveable' is display device specific.
+    'FrameLockSlaveable' can use the following target types: GPU.
+
+  Attribute 'FrameLockSlaveable' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0x00000000.
+    'FrameLockSlaveable' is a bitmask attribute.
+    'FrameLockSlaveable' is a read-only attribute.
+    'FrameLockSlaveable' is display device specific.
+    'FrameLockSlaveable' can use the following target types: GPU.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'Dithering' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'Dithering' is an integer attribute.
+    'Dithering' is display device specific.
+    'Dithering' can use the following target types: GPU.
+
+  Attribute 'Dithering' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'Dithering' is an integer attribute.
+    'Dithering' is display device specific.
+    'Dithering' can use the following target types: GPU.
+
+  Attribute 'CurrentDithering' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 1.
+    'CurrentDithering' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CurrentDithering' is a read-only attribute.
+    'CurrentDithering' is display device specific.
+    'CurrentDithering' can use the following target types: GPU.
+
+  Attribute 'CurrentDithering' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 1.
+    'CurrentDithering' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CurrentDithering' is a read-only attribute.
+    'CurrentDithering' is display device specific.
+    'CurrentDithering' can use the following target types: GPU.
+
+  Attribute 'DitheringMode' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    Valid values for 'DitheringMode' are: 0, 1 and 2.
+    'DitheringMode' is display device specific.
+    'DitheringMode' can use the following target types: GPU.
+
+  Attribute 'DitheringMode' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    Valid values for 'DitheringMode' are: 0, 1 and 2.
+    'DitheringMode' is display device specific.
+    'DitheringMode' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringMode' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 1.
+    'CurrentDitheringMode' is an integer attribute.
+    'CurrentDitheringMode' is a read-only attribute.
+    'CurrentDitheringMode' is display device specific.
+    'CurrentDitheringMode' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringMode' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 1.
+    'CurrentDitheringMode' is an integer attribute.
+    'CurrentDitheringMode' is a read-only attribute.
+    'CurrentDitheringMode' is display device specific.
+    'CurrentDitheringMode' can use the following target types: GPU.
+
+  Attribute 'DitheringDepth' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'DitheringDepth' is an integer attribute.
+    'DitheringDepth' is display device specific.
+    'DitheringDepth' can use the following target types: GPU.
+
+  Attribute 'DitheringDepth' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'DitheringDepth' is an integer attribute.
+    'DitheringDepth' is display device specific.
+    'DitheringDepth' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringDepth' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2.
+    'CurrentDitheringDepth' is an integer attribute.
+    'CurrentDitheringDepth' is a read-only attribute.
+    'CurrentDitheringDepth' is display device specific.
+    'CurrentDitheringDepth' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringDepth' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2.
+    'CurrentDitheringDepth' is an integer attribute.
+    'CurrentDitheringDepth' is a read-only attribute.
+    'CurrentDitheringDepth' is display device specific.
+    'CurrentDitheringDepth' can use the following target types: GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'SynchronousPaletteUpdates' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-0): 0.
+    'SynchronousPaletteUpdates' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SynchronousPaletteUpdates' is display device specific.
+    'SynchronousPaletteUpdates' can use the following target types: GPU.
+
+  Attribute 'SynchronousPaletteUpdates' (challenger.vrac.iastate.edu:0[gpu:0]; display device: DFP-1): 0.
+    'SynchronousPaletteUpdates' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SynchronousPaletteUpdates' is display device specific.
+    'SynchronousPaletteUpdates' can use the following target types: GPU.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[gpu:1]:
+
+  Attribute 'OperatingSystem' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    The valid values for 'OperatingSystem' are in the range 0 - 2 (inclusive).
+    'OperatingSystem' is a read-only attribute.
+    'OperatingSystem' can use the following target types: X Screen, GPU.
+
+  Attribute 'NvidiaDriverVersion' (challenger.vrac.iastate.edu:0[gpu:1]): 270.41.03 
+    'NvidiaDriverVersion' is a string attribute.
+    'NvidiaDriverVersion' is a read-only attribute.
+    'NvidiaDriverVersion' can use the following target types: X Screen, GPU.
+
+  Attribute 'ConnectedDisplays' (challenger.vrac.iastate.edu:0[gpu:1]): 0x00030000.
+    'ConnectedDisplays' is a bitmask attribute.
+    'ConnectedDisplays' is a read-only attribute.
+    'ConnectedDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'EnabledDisplays' (challenger.vrac.iastate.edu:0[gpu:1]): 0x00030000.
+    'EnabledDisplays' is a bitmask attribute.
+    'EnabledDisplays' is a read-only attribute.
+    'EnabledDisplays' can use the following target types: X Screen, GPU.
+
+  Attribute 'Depth30Allowed' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'Depth30Allowed' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'Depth30Allowed' is a read-only attribute.
+    'Depth30Allowed' can use the following target types: X Screen, GPU.
+
+  Attribute 'NoScanout' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'NoScanout' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'NoScanout' is a read-only attribute.
+    'NoScanout' can use the following target types: X Screen, GPU.
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+  Attribute 'BusType' (challenger.vrac.iastate.edu:0[gpu:1]): 2.
+    The valid values for 'BusType' are in the range 0 - 3 (inclusive).
+    'BusType' is a read-only attribute.
+    'BusType' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIEMaxLinkSpeed' (challenger.vrac.iastate.edu:0[gpu:1]): 5000.
+    'PCIEMaxLinkSpeed' is an integer attribute.
+    'PCIEMaxLinkSpeed' is a read-only attribute.
+    'PCIEMaxLinkSpeed' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'VideoRam' (challenger.vrac.iastate.edu:0[gpu:1]): 6291456.
+    'VideoRam' is an integer attribute.
+    'VideoRam' is a read-only attribute.
+    'VideoRam' can use the following target types: X Screen, GPU.
+
+  Attribute 'Irq' (challenger.vrac.iastate.edu:0[gpu:1]): 38.
+    'Irq' is an integer attribute.
+    'Irq' is a read-only attribute.
+    'Irq' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'CUDACores' (challenger.vrac.iastate.edu:0[gpu:1]): 512.
+    'CUDACores' is an integer attribute.
+    'CUDACores' is a read-only attribute.
+    'CUDACores' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUMemoryInterface' (challenger.vrac.iastate.edu:0[gpu:1]): 384.
+    'GPUMemoryInterface' is an integer attribute.
+    'GPUMemoryInterface' is a read-only attribute.
+    'GPUMemoryInterface' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCoreTemp' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'GPUCoreTemp' is an integer attribute.
+    'GPUCoreTemp' is a read-only attribute.
+    'GPUCoreTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAmbientTemp' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'GPUAmbientTemp' is an integer attribute.
+    'GPUAmbientTemp' is a read-only attribute.
+    'GPUAmbientTemp' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU2DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 50,135.
+    The valid values for 'GPU2DClockFreqs' are in the ranges 12 - 101, 33 - 162 (inclusive).
+    'GPU2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPU3DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 650,1701.
+    The valid values for 'GPU3DClockFreqs' are in the ranges 625 - 1301, 1701 - 2041 (inclusive).
+    'GPU3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault2DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 50,135.
+    'GPUDefault2DClockFreqs' is a packed integer attribute.
+    'GPUDefault2DClockFreqs' is a read-only attribute.
+    'GPUDefault2DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUDefault3DClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 650,1701.
+    'GPUDefault3DClockFreqs' is a packed integer attribute.
+    'GPUDefault3DClockFreqs' is a read-only attribute.
+    'GPUDefault3DClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 650,1701.
+    'GPUCurrentClockFreqs' is a packed integer attribute.
+    'GPUCurrentClockFreqs' is a read-only attribute.
+    'GPUCurrentClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentProcessorClockFreqs' (challenger.vrac.iastate.edu:0[gpu:1]): 1301.
+    The valid values for 'GPUCurrentProcessorClockFreqs' are in the range 1251 - 2602 (inclusive).
+    'GPUCurrentProcessorClockFreqs' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentClockFreqsString' (challenger.vrac.iastate.edu:0[gpu:1]): nvclock=650, memclock=1701, processorclock=1301 
+    'GPUCurrentClockFreqsString' is a string attribute.
+    'GPUCurrentClockFreqsString' can use the following target types: X Screen, GPU.
+
+  Attribute 'BusRate' (challenger.vrac.iastate.edu:0[gpu:1]): 16.
+    The valid values for 'BusRate' are in the range 1 - 16 (inclusive).
+    'BusRate' is a read-only attribute.
+    'BusRate' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'PCIDomain' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'PCIDomain' is an integer attribute.
+    'PCIDomain' is a read-only attribute.
+    'PCIDomain' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIBus' (challenger.vrac.iastate.edu:0[gpu:1]): 13.
+    'PCIBus' is an integer attribute.
+    'PCIBus' is a read-only attribute.
+    'PCIBus' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIDevice' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'PCIDevice' is an integer attribute.
+    'PCIDevice' is a read-only attribute.
+    'PCIDevice' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIFunc' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'PCIFunc' is an integer attribute.
+    'PCIFunc' is a read-only attribute.
+    'PCIFunc' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIID' (challenger.vrac.iastate.edu:0[gpu:1]): 4318,4251.
+    'PCIID' is a packed integer attribute.
+    'PCIID' is a read-only attribute.
+    'PCIID' can use the following target types: GPU, SDI Input Device.
+
+  Attribute 'PCIEGen' (challenger.vrac.iastate.edu:0[gpu:1]): 2.
+    'PCIEGen' is an integer attribute.
+    'PCIEGen' is a read-only attribute.
+    'PCIEGen' can use the following target types: X Screen, GPU, SDI Input Device.
+
+  Attribute 'GPUPowerSource' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'GPUPowerSource' is an integer attribute.
+    'GPUPowerSource' is a read-only attribute.
+    'GPUPowerSource' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfMode' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'GPUCurrentPerfMode' is an integer attribute.
+    'GPUCurrentPerfMode' is a read-only attribute.
+    'GPUCurrentPerfMode' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUCurrentPerfLevel' (challenger.vrac.iastate.edu:0[gpu:1]): 6.
+    'GPUCurrentPerfLevel' is an integer attribute.
+    'GPUCurrentPerfLevel' is a read-only attribute.
+    'GPUCurrentPerfLevel' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUAdaptiveClockState' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'GPUAdaptiveClockState' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUAdaptiveClockState' is a read-only attribute.
+    'GPUAdaptiveClockState' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPerfModes' (challenger.vrac.iastate.edu:0[gpu:1]): perf=0, nvclock=50, memclock=135, processorclock=101 ; perf=1, nvclock=398, memclock=1701,
+  processorclock=797 ; perf=2, nvclock=488, memclock=1701, processorclock=976 ; perf=3, nvclock=526, memclock=1701, processorclock=1053 ; perf=4, nvclock=594,
+  memclock=1701, processorclock=1189 ; perf=5, nvclock=625, memclock=1701, processorclock=1251 ; perf=6, nvclock=650, memclock=1701, processorclock=1301 
+    'GPUPerfModes' is a string attribute.
+    'GPUPerfModes' is a read-only attribute.
+    'GPUPerfModes' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUPowerMizerMode' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'GPUPowerMizerMode' is an integer attribute.
+    'GPUPowerMizerMode' can use the following target types: GPU.
+
+  Attribute 'ECCSupported' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'ECCSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCSupported' is a read-only attribute.
+    'ECCSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCStatus' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'ECCStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCStatus' is a read-only attribute.
+    'ECCStatus' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfigurationSupported' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'ECCConfigurationSupported' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfigurationSupported' is a read-only attribute.
+    'ECCConfigurationSupported' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCConfiguration' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'ECCConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'ECCDefaultConfiguration' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'ECCDefaultConfiguration' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'ECCDefaultConfiguration' is a read-only attribute.
+    'ECCDefaultConfiguration' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockAvailable' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'FrameLockAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockAvailable' is a read-only attribute.
+    'FrameLockAvailable' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockMaster' (challenger.vrac.iastate.edu:0[gpu:1]): 0x00000000.
+    'FrameLockMaster' is a bitmask attribute.
+    'FrameLockMaster' can use the following target types: GPU.
+
+  Attribute 'FrameLockEnable' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'FrameLockEnable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockEnable' can use the following target types: GPU.
+
+  Attribute 'FrameLockStereoSync' (challenger.vrac.iastate.edu:0[gpu:1]): 0.
+    'FrameLockStereoSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockStereoSync' is a read-only attribute.
+    'FrameLockStereoSync' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockTiming' (challenger.vrac.iastate.edu:0[gpu:1]): 1.
+    'FrameLockTiming' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockTiming' is a read-only attribute.
+    'FrameLockTiming' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrameLockSlaves' (challenger.vrac.iastate.edu:0[gpu:1]): 0x00020000.
+    'FrameLockSlaves' is a bitmask attribute.
+    'FrameLockSlaves' can use the following target types: GPU.
+
+  Attribute 'FrameLockMasterable' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0x00000000.
+    'FrameLockMasterable' is a bitmask attribute.
+    'FrameLockMasterable' is a read-only attribute.
+    'FrameLockMasterable' is display device specific.
+    'FrameLockMasterable' can use the following target types: GPU.
+
+  Attribute 'FrameLockMasterable' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0x00000000.
+    'FrameLockMasterable' is a bitmask attribute.
+    'FrameLockMasterable' is a read-only attribute.
+    'FrameLockMasterable' is display device specific.
+    'FrameLockMasterable' can use the following target types: GPU.
+
+  Attribute 'FrameLockSlaveable' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0x00010000.
+    'FrameLockSlaveable' is a bitmask attribute.
+    'FrameLockSlaveable' is a read-only attribute.
+    'FrameLockSlaveable' is display device specific.
+    'FrameLockSlaveable' can use the following target types: GPU.
+
+  Attribute 'FrameLockSlaveable' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0x00020000.
+    'FrameLockSlaveable' is a bitmask attribute.
+    'FrameLockSlaveable' is a read-only attribute.
+    'FrameLockSlaveable' is display device specific.
+    'FrameLockSlaveable' can use the following target types: GPU.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'IsGvoDisplay' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'IsGvoDisplay' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'IsGvoDisplay' is a read-only attribute.
+    'IsGvoDisplay' is display device specific.
+    'IsGvoDisplay' can use the following target types: X Screen, GPU.
+
+  Attribute 'Dithering' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'Dithering' is an integer attribute.
+    'Dithering' is display device specific.
+    'Dithering' can use the following target types: GPU.
+
+  Attribute 'Dithering' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'Dithering' is an integer attribute.
+    'Dithering' is display device specific.
+    'Dithering' can use the following target types: GPU.
+
+  Attribute 'CurrentDithering' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 1.
+    'CurrentDithering' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CurrentDithering' is a read-only attribute.
+    'CurrentDithering' is display device specific.
+    'CurrentDithering' can use the following target types: GPU.
+
+  Attribute 'CurrentDithering' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 1.
+    'CurrentDithering' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'CurrentDithering' is a read-only attribute.
+    'CurrentDithering' is display device specific.
+    'CurrentDithering' can use the following target types: GPU.
+
+  Attribute 'DitheringMode' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    Valid values for 'DitheringMode' are: 0, 1 and 2.
+    'DitheringMode' is display device specific.
+    'DitheringMode' can use the following target types: GPU.
+
+  Attribute 'DitheringMode' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    Valid values for 'DitheringMode' are: 0, 1 and 2.
+    'DitheringMode' is display device specific.
+    'DitheringMode' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringMode' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 1.
+    'CurrentDitheringMode' is an integer attribute.
+    'CurrentDitheringMode' is a read-only attribute.
+    'CurrentDitheringMode' is display device specific.
+    'CurrentDitheringMode' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringMode' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 1.
+    'CurrentDitheringMode' is an integer attribute.
+    'CurrentDitheringMode' is a read-only attribute.
+    'CurrentDitheringMode' is display device specific.
+    'CurrentDitheringMode' can use the following target types: GPU.
+
+  Attribute 'DitheringDepth' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'DitheringDepth' is an integer attribute.
+    'DitheringDepth' is display device specific.
+    'DitheringDepth' can use the following target types: GPU.
+
+  Attribute 'DitheringDepth' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'DitheringDepth' is an integer attribute.
+    'DitheringDepth' is display device specific.
+    'DitheringDepth' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringDepth' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2.
+    'CurrentDitheringDepth' is an integer attribute.
+    'CurrentDitheringDepth' is a read-only attribute.
+    'CurrentDitheringDepth' is display device specific.
+    'CurrentDitheringDepth' can use the following target types: GPU.
+
+  Attribute 'CurrentDitheringDepth' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2.
+    'CurrentDitheringDepth' is an integer attribute.
+    'CurrentDitheringDepth' is a read-only attribute.
+    'CurrentDitheringDepth' is display device specific.
+    'CurrentDitheringDepth' can use the following target types: GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'DigitalVibrance' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    The valid values for 'DigitalVibrance' are in the range -1024 - 1023 (inclusive).
+    'DigitalVibrance' is display device specific.
+    'DigitalVibrance' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FrontendResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2560,1600.
+    'FrontendResolution' is a packed integer attribute.
+    'FrontendResolution' is a read-only attribute.
+    'FrontendResolution' is display device specific.
+    'FrontendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'BackendResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2560,1600.
+    'BackendResolution' is a packed integer attribute.
+    'BackendResolution' is a read-only attribute.
+    'BackendResolution' is display device specific.
+    'BackendResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelNativeResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2560,1600.
+    'FlatpanelNativeResolution' is a packed integer attribute.
+    'FlatpanelNativeResolution' is a read-only attribute.
+    'FlatpanelNativeResolution' is display device specific.
+    'FlatpanelNativeResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'FlatpanelBestFitResolution' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2560,1600.
+    'FlatpanelBestFitResolution' is a packed integer attribute.
+    'FlatpanelBestFitResolution' is a read-only attribute.
+    'FlatpanelBestFitResolution' is display device specific.
+    'FlatpanelBestFitResolution' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'DFPScalingActive' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'DFPScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'DFPScalingActive' is a read-only attribute.
+    'DFPScalingActive' is display device specific.
+    'DFPScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScaling' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2,1.
+    Valid values for 'GPUScaling' are: [1 and 2], [1, 2 and 3].
+    'GPUScaling' is display device specific.
+    'GPUScaling' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultTarget' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 2.
+    'GPUScalingDefaultTarget' is an integer attribute.
+    'GPUScalingDefaultTarget' is a read-only attribute.
+    'GPUScalingDefaultTarget' is display device specific.
+    'GPUScalingDefaultTarget' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingDefaultMethod' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 1.
+    'GPUScalingDefaultMethod' is an integer attribute.
+    'GPUScalingDefaultMethod' is a read-only attribute.
+    'GPUScalingDefaultMethod' is display device specific.
+    'GPUScalingDefaultMethod' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'GPUScalingActive' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'GPUScalingActive' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'GPUScalingActive' is a read-only attribute.
+    'GPUScalingActive' is display device specific.
+    'GPUScalingActive' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 59.97 Hz.
+    'RefreshRate' is an integer attribute.
+    'RefreshRate' is a read-only attribute.
+    'RefreshRate' is display device specific.
+    'RefreshRate' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'RefreshRate3' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 59.972 Hz.
+    'RefreshRate3' is an integer attribute.
+    'RefreshRate3' is a read-only attribute.
+    'RefreshRate3' is display device specific.
+    'RefreshRate3' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorSpace' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    Valid values for 'ColorSpace' are: 0.
+    'ColorSpace' is display device specific.
+    'ColorSpace' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'ColorRange' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    Valid values for 'ColorRange' are: 0 and 1.
+    'ColorRange' is display device specific.
+    'ColorRange' can use the following target types: X Screen, GPU.
+
+  Attribute 'SynchronousPaletteUpdates' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-0): 0.
+    'SynchronousPaletteUpdates' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SynchronousPaletteUpdates' is display device specific.
+    'SynchronousPaletteUpdates' can use the following target types: GPU.
+
+  Attribute 'SynchronousPaletteUpdates' (challenger.vrac.iastate.edu:0[gpu:1]; display device: DFP-1): 0.
+    'SynchronousPaletteUpdates' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SynchronousPaletteUpdates' is display device specific.
+    'SynchronousPaletteUpdates' can use the following target types: GPU.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[framelock:0]:
+
+  Attribute 'FrameLockPolarity' (challenger.vrac.iastate.edu:0[framelock:0]): 0x00000002.
+    'FrameLockPolarity' is a bitmask attribute.
+    'FrameLockPolarity' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelay' (challenger.vrac.iastate.edu:0[framelock:0]): 0.
+    The valid values for 'FrameLockSyncDelay' are in the range 0 - 65535 (inclusive).
+    'FrameLockSyncDelay' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncInterval' (challenger.vrac.iastate.edu:0[framelock:0]): 0.
+    The valid values for 'FrameLockSyncInterval' are in the range 0 - 7 (inclusive).
+    'FrameLockSyncInterval' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort0Status' (challenger.vrac.iastate.edu:0[framelock:0]): 1.
+    'FrameLockPort0Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort0Status' is a read-only attribute.
+    'FrameLockPort0Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockPort1Status' (challenger.vrac.iastate.edu:0[framelock:0]): 1.
+    'FrameLockPort1Status' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockPort1Status' is a read-only attribute.
+    'FrameLockPort1Status' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockHouseStatus' (challenger.vrac.iastate.edu:0[framelock:0]): 0.
+    'FrameLockHouseStatus' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockHouseStatus' is a read-only attribute.
+    'FrameLockHouseStatus' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncReady' (challenger.vrac.iastate.edu:0[framelock:0]): 1.
+    'FrameLockSyncReady' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FrameLockSyncReady' is a read-only attribute.
+    'FrameLockSyncReady' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockEthDetected' (challenger.vrac.iastate.edu:0[framelock:0]): 0x00000000.
+    'FrameLockEthDetected' is a bitmask attribute.
+    'FrameLockEthDetected' is a read-only attribute.
+    'FrameLockEthDetected' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockVideoMode' (challenger.vrac.iastate.edu:0[framelock:0]): 0.
+    The valid values for 'FrameLockVideoMode' are in the range 0 - 3 (inclusive).
+    'FrameLockVideoMode' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate' (challenger.vrac.iastate.edu:0[framelock:0]): 59971.
+    'FrameLockSyncRate' is an integer attribute.
+    'FrameLockSyncRate' is a read-only attribute.
+    'FrameLockSyncRate' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FramelockUseHouseSync' (challenger.vrac.iastate.edu:0[framelock:0]): 0.
+    'FramelockUseHouseSync' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'FramelockUseHouseSync' can use the following target types: X Screen, Frame Lock Device.
+
+  Attribute 'FrameLockFPGARevision' (challenger.vrac.iastate.edu:0[framelock:0]): 118.
+    'FrameLockFPGARevision' is an integer attribute.
+    'FrameLockFPGARevision' is a read-only attribute.
+    'FrameLockFPGARevision' can use the following target types: Frame Lock Device.
+
+  Attribute 'FrameLockSyncRate4' (challenger.vrac.iastate.edu:0[framelock:0]): 599710.
+    'FrameLockSyncRate4' is an integer attribute.
+    'FrameLockSyncRate4' is a read-only attribute.
+    'FrameLockSyncRate4' can use the following target types: Frame Lock Device.
+
+  Attribute 'FrameLockSyncDelayResolution' (challenger.vrac.iastate.edu:0[framelock:0]): 977.
+    'FrameLockSyncDelayResolution' is an integer attribute.
+    'FrameLockSyncDelayResolution' is a read-only attribute.
+    'FrameLockSyncDelayResolution' can use the following target types: Frame Lock Device.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[vcs:0]:
+
+  Attribute 'SliMosaicModeAvailable' (challenger.vrac.iastate.edu:0[vcs:0]): 1.
+    'SliMosaicModeAvailable' is a boolean attribute; valid values are: 1 (on/true) and 0 (off/false).
+    'SliMosaicModeAvailable' is a read-only attribute.
+    'SliMosaicModeAvailable' can use the following target types: X Screen, GPU, VCS.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[fan:0]:
+
+  Attribute 'GPUCurrentFanSpeed' (challenger.vrac.iastate.edu:0[fan:0]): 30.
+    The valid values for 'GPUCurrentFanSpeed' are in the range 0 - 100 (inclusive).
+    'GPUCurrentFanSpeed' can use the following target types: Fan.
+
+  Attribute 'GPUFanControlType' (challenger.vrac.iastate.edu:0[fan:0]): 2.
+    'GPUFanControlType' is an integer attribute.
+    'GPUFanControlType' is a read-only attribute.
+    'GPUFanControlType' can use the following target types: Fan.
+
+  Attribute 'GPUFanTarget' (challenger.vrac.iastate.edu:0[fan:0]): 0x00000007.
+    'GPUFanTarget' is a bitmask attribute.
+    'GPUFanTarget' is a read-only attribute.
+    'GPUFanTarget' can use the following target types: Fan.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[fan:1]:
+
+  Attribute 'GPUCurrentFanSpeed' (challenger.vrac.iastate.edu:0[fan:1]): 30.
+    The valid values for 'GPUCurrentFanSpeed' are in the range 0 - 100 (inclusive).
+    'GPUCurrentFanSpeed' can use the following target types: Fan.
+
+  Attribute 'GPUFanControlType' (challenger.vrac.iastate.edu:0[fan:1]): 2.
+    'GPUFanControlType' is an integer attribute.
+    'GPUFanControlType' is a read-only attribute.
+    'GPUFanControlType' can use the following target types: Fan.
+
+  Attribute 'GPUFanTarget' (challenger.vrac.iastate.edu:0[fan:1]): 0x00000007.
+    'GPUFanTarget' is a bitmask attribute.
+    'GPUFanTarget' is a read-only attribute.
+    'GPUFanTarget' can use the following target types: Fan.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:0]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:0]): 62.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:0]): 1.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:0]): 1.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:1]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:1]): 43.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:1]): 8.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:1]): 8.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:2]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:2]): 52.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:2]): 2.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:2]): 2.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:3]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:3]): 60.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:3]): 1.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:3]): 1.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:4]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:4]): 42.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:4]): 8.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:4]): 8.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
+Attributes queryable via challenger.vrac.iastate.edu:0[thermalsensor:5]:
+
+  Attribute 'ThermalSensorReading' (challenger.vrac.iastate.edu:0[thermalsensor:5]): 51.
+    The valid values for 'ThermalSensorReading' are in the range 0 - 191 (inclusive).
+    'ThermalSensorReading' is a read-only attribute.
+    'ThermalSensorReading' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorProvider' (challenger.vrac.iastate.edu:0[thermalsensor:5]): 2.
+    'ThermalSensorProvider' is an integer attribute.
+    'ThermalSensorProvider' is a read-only attribute.
+    'ThermalSensorProvider' can use the following target types: Thermal Sensor.
+
+  Attribute 'ThermalSensorTarget' (challenger.vrac.iastate.edu:0[thermalsensor:5]): 2.
+    'ThermalSensorTarget' is an integer attribute.
+    'ThermalSensorTarget' is a read-only attribute.
+    'ThermalSensorTarget' can use the following target types: Thermal Sensor.
+
