@@ -63,12 +63,12 @@ function disableFramelock()
 end
 
 --[[ Utility Functions and "Innards" ]]--
-function do_command(cmd)
+local function do_command(cmd)
 	print("Running: " .. cmd)
 	os.execute(cmd)
 end
 
-function backtick(pipeline)
+local function backtick(pipeline)
 	--print("Running `" .. pipeline .. "`")
 	io.write(".")
 	local proc = io.popen(pipeline)
@@ -76,6 +76,7 @@ function backtick(pipeline)
 	proc:close()
 	return output
 end
+
 -- remove trailing and leading whitespace from string.
 -- http://en.wikipedia.org/wiki/Trim_(8programming)
 local function trim(s)
@@ -84,6 +85,7 @@ local function trim(s)
 end
 
 local ScreenClass = {}
+
 function ScreenClass.getDisplayDevice(screen)
 	return trim(backtick(([[nvidia-settings --terse --ctrl-display %s -q %s/EnabledDisplays]]):format(screen.ctrldisplay, screen.name)))
 end
@@ -142,15 +144,7 @@ function ScreenClass.getRefreshRate(screen)
 	)
 	return trim(backtick(cmd))
 end
---[[
-local ScreenClass = {
-	getDisplayDevice = getDisplayDevice,
-	setFramelock = setFramelock,
-	setFramelockRole = setFramelockRole,
-	disableHouseSync = disableHouseSync,
-	getRefreshRate = getRefreshRate
-}
-]]
+
 local screenmt = { __index = ScreenClass }
 
 screens = {}
