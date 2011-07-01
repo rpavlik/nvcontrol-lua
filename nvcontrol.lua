@@ -45,8 +45,14 @@ nvcontrol = {}
 local function do_command(cmd)
 	if nvcontrol.verbose then
 		print("nvcontrol.lua: Running: " .. cmd)
+	else
+		cmd = cmd .. " > /dev/null"
 	end
-	os.execute(cmd)
+	local status = os.execute(cmd)
+	if nvcontrol.verbose then
+		print("nvcontrol.lua: exited with status " .. tostring(status))
+	end
+	return status
 end
 
 local function backtick(pipeline)
@@ -116,7 +122,8 @@ local function setAttribute(tgt, attr, value)
 	)
 	local ret = do_command(cmd)
 	if ret ~= 0 then
-		error(("Error setting attribute %s to %s on target %s!"):format(attr, tostring(value), tgt.id), 2)
+		--error(("Error setting attribute %s to %s on target %s!"):format(attr, tostring(value), tgt.id), 2)
+		--print(("WARNING: %s exited with code %d setting attribute %s to %s on target %s!"):format(nv, ret, attr, tostring(value), tgt.id))
 	end
 end
 
