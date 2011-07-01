@@ -57,6 +57,14 @@ local function initializeAttributeList(list)
 	return list
 end
 
+local function nvidiaSettings(tgt)
+	if rawget(tgt, "ctrldisplay") ~= nil then
+		return "nvidia-settings --ctrl-display=" .. rawget(tgt, "ctrldisplay")
+	else
+		return "nvidia-settings"
+	end
+
+end
 
 --[[ Data ]]
 local knownAttributes = {}
@@ -72,8 +80,8 @@ local function setAttribute(tgt, attr, value)
 	elseif value == false then
 		value = 0
 	end
-	local cmd = ("nvidia-settings --ctrl-display=%s -a %s/%s=%d"):format(
-		tgt.ctrldisplay,
+	local cmd = ("%s -a %s/%s=%d"):format(
+		nvidiaSettings(tgt),
 		tgt.id,
 		attr,
 		tostring(value)
@@ -85,8 +93,11 @@ local function setAttribute(tgt, attr, value)
 end
 
 local function getAttribute(tgt, attr)
-	local cmd = ([[nvidia-settings --terse --ctrl-display %s -q %s/%s]]):format(
-		tgt.ctrldisplay,
+	if knownAttributes[attr] == nil then
+		error("nvidia-settings knows no attribute named " .. attr, 2)
+	end
+	local cmd = ([[%s --terse -q %s/%s]]):format(
+		nvidiaSettings(tgt),
 		tgt.id,
 		attr
 	)
@@ -117,9 +128,7 @@ end
 
 --[[ Initialization ]]
 initializeAttributeList(knownAttributes)
-nvcontrol = {
-	XScreen = createXScreen
-}
+nvcontrol.debug = false
 nvcontrol.XScreen = createXScreen
 
 return nvcontrol
