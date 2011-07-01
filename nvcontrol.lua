@@ -24,17 +24,22 @@ nvcontrol.XScreen(":0.0")
 --[[ Utility Functions ]]
 
 local function do_command(cmd)
-	print("Running: " .. cmd)
+	if nvcontrol.verbose then
+		print("Running: " .. cmd)
+	end
 	os.execute(cmd)
 end
 
 local function backtick(pipeline)
-	--print("Running `" .. pipeline .. "`")
+	if nvcontrol.verbose then
+		print("Running `" .. pipeline .. "`")
+	end
 	local proc = io.popen(pipeline)
 	local output = proc:read("*a")
 	proc:close()
 	return output
 end
+
 -- remove trailing and leading whitespace from string.
 -- http://en.wikipedia.org/wiki/Trim_(8programming)
 local function trim(s)
