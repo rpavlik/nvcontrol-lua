@@ -114,7 +114,7 @@ local function setAttribute(tgt, attr, value)
 	elseif value == false then
 		value = 0
 	end
-	local cmd = ("%s -a %s/%s=%d"):format(
+	local cmd = ("%s -a %s/%s=%s"):format(
 		nvidiaSettings(tgt),
 		tgt.id,
 		attr,
