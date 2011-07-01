@@ -37,6 +37,7 @@ end
 
 local function print_step(step)
 	print()
+	print()
 	print("------------------------------------------------------")
 	print(step)
 end
@@ -48,17 +49,20 @@ local function enable(masters, nonmasters)
 
 	--[[ General Process:
 	1.	Disable frame lock on all Quadros.
-	2.	Make sure all display devices that are to be frame- locked have the same refresh rate.
-	3. Configure which Quadro/display device is to be the master.
-	4. Configure the house sync (if applicable). Skipped here, and a step to turn on sync to vblank is inserted.
-	5. Configure the slave display devices.
-	6.	Enable frame lock on the master Quadro.
-	7.	Enable frame lock on the slave Quadros.
-	8.	Test the hardware connections using the test signal on the master Quadro.
+	2.	Make sure all display devices that are to be frame-locked have the same refresh rate.
+	3.	Enable Sync to VBlank.
+	4.	Configure which Quadro/display device is to be the master.
+	5.	Configure the house sync (if applicable).
+	6.	Configure the slave display devices.
+	7.	Enable frame lock on the master Quadro.
+	8.	Enable frame lock on the slave Quadros.
+	9.	Test the hardware connections using the test signal on the master Quadro. (skipped)
+
+	This is from the NVIDIA documentation, with the sync to vblank step added.
 	]]
 
 	print_step("1.	Disable frame lock on all Quadros.")
-	foreach(allscreens, function(_, screen) screen.FrameLockEnable = false end)
+	foreach(allscreens, function(_, screen) screen.FrameLockEnable = false; io.write(".") end)
 
 	print_step("2.	Make sure all display devices that are to be frame- locked have the same refresh rate.")
 	local refreshrate = nil
@@ -68,7 +72,7 @@ local function enable(masters, nonmasters)
 			if refreshrate == nil then
 				refreshrate = rr
 			else
-				if rr ~= refreshrate then
+				if rr ~= refreshrate and not nvcontrol.dryrun then
 					error(("Refresh rates don't match! Established standard was %s, but %s was %s!"):format(
 						refreshrate,
 						tostring(screen),
@@ -76,26 +80,33 @@ local function enable(masters, nonmasters)
 					))
 				end
 			end
+			io.write(".")
 		end
 	)
-	print("All displays have the same refresh rate: " .. refreshrate)
+	print("\nAll displays have the same refresh rate: " .. refreshrate)
 
-	print_step("3.	Configure which Quadro/display device is to be the master.")
-	foreach(masters, function(_, screen) screen.FrameLockMaster = screen.EnabledDisplays end)
+	print_step("3.	Enable Sync to VBlank")
+	foreach(allscreens, function(_, screen) screen.SyncToVBlank = true; io.write(".") end)
 
-	print_step("4.	Enable Sync to VBlank")
-	foreach(allscreens, function(_, screen) screen.SyncToVBlank = true end)
+	print_step("4.	Configure which Quadro/display device is to be the master.")
+	foreach(masters, function(_, screen) screen.FrameLockMaster = screen.EnabledDisplays; io.write(".") end)
 
-	print_step("5.	Configure the slave display devices.")
-	foreach(nonmasters, function(_, screen) screen.FrameLockSlaves = screen.EnabledDisplays end)
+	print_step("5.	Configure the house sync (if applicable).")
+	foreach(masters, function(_, screen) screen.FrameLockMaster = screen.EnabledDisplays; io.write(".") end)
 
-	print_step("6.	Enable frame lock on the master Quadro.")
-	foreach(masters, function(_, screen) screen.FrameLockEnable = true end)
+	print_step("6.	Configure the slave display devices.")
+	foreach(nonmasters, function(_, screen) screen.FrameLockSlaves = screen.EnabledDisplays; io.write(".") end)
 
-	print_step("7.	Enable frame lock on the slave Quadros.")
-	foreach(nonmasters, function(_, screen) screen.FrameLockEnable = true end)
+	os.execute("sleep 0.2")
 
-	--print_step("8.	Test the hardware connections using the test signal on the master Quadro. (SKIPPED)")
+	print_step("7.	Enable frame lock on the master Quadro.")
+	foreach(masters, function(_, screen) screen.FrameLockEnable = true; io.write(".") end)
+
+	print_step("8.	Enable frame lock on the slave Quadros.")
+	foreach(nonmasters, function(_, screen) screen.FrameLockEnable = true; io.write(".") end)
+
+	--print_step("9.	Test the hardware connections using the test signal on the master Quadro. (SKIPPED)")
+	print_step("Done!")
 end
 
 local function disable(masters, nonmasters)
