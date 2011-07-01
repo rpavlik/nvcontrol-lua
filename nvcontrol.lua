@@ -29,7 +29,10 @@ local function setAttribute(tgt, attr, value)
 		attr,
 		tostring(value)
 	)
-	do_command(cmd)
+	local ret = do_command(cmd)
+	if ret ~= 0 then
+		error(("Error setting attribute %s to %s on target %s!"):format(attr, tostring(value), tgt.id), 2)
+	end
 end
 
 local function getAttribute(tgt, attr)
@@ -38,7 +41,17 @@ local function getAttribute(tgt, attr)
 		tgt.id,
 		attr
 	)
-	return trim(backtick(cmd))
+	local output = trim(backtick(cmd))
+	if #output == 0 then
+		error(
+			("Could not get attribute %s on target %s - nvidia-settings printed a message to stderr")
+			:format(
+				attr,
+				tgt.id
+			), 2
+		)
+	end
+	return output
 end
 
 local function screenToString(screen)
