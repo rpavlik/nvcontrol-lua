@@ -30,9 +30,13 @@ if not configFile then
 	error("Could not open config file " .. configFn .. " - got error " .. tostring(err), 2)
 end
 
-local myhost = os.getenv("HOST")
-local configString = configFile:read("*a"):gsub(myhost, "")
+local configString = configFile:read("*a")
 configFile:close()
+
+local myhost = os.getenv("HOSTNAME")
+if myhost then
+	configString = configString:gsub(os.getenv("HOSTNAME"), "")
+end
 configChunk, err = loadstring(configString)
 if not configChunk then
 	error("Could not load config file as Lua! Got error " .. err)
