@@ -4,13 +4,13 @@ framelock.lua
 Canned methods to enable and disable framelock on a collection of NVidia-powered
 display devices.  Uses nvcontrol to interact with devices - nvcontrol.XScreen(<screen identifier>)
 will return an object representing that X screen, which is suitable for input to these methods.
-See nvcontrol.lua for more information.
+See the main nvcontrol file for more information.
 
 
-framelock.enable(masters, nonmasters) - Given a table of one or more master X screens and one or more non-master X screens, follows the NVidia-recommended procedure for enabling framelock.
+nvcontrol.framelock.enable(masters, nonmasters) - Given a table of one or more master X screens and one or more non-master X screens, follows the NVidia-recommended procedure for enabling framelock.
 
-framelock.disable(allscreens) or
-framelock.disable(masters, nonmasters) - Given one or two tables of X screens, disable framelock on all of them.
+nvcontrol.framelock.disable(allscreens) or
+nvcontrol.framelock.disable(masters, nonmasters) - Given one or two tables of X screens, disable framelock on all of them.
 ]]
 
 require("nvcontrol")
@@ -91,9 +91,9 @@ local function disable(masters, nonmasters)
 	foreach(allscreens, function(_, screen) screen.FrameLockEnable = false end)
 end
 
-framelock = {}
-framelock.enable = enable
-framelock.disable = disable
+nvcontrol.framelock = {}
+nvcontrol.framelock.enable = enable
+nvcontrol.framelock.disable = disable
 return framelock
 
 
