@@ -33,14 +33,14 @@ nvcontrol = {}
 
 local function do_command(cmd)
 	if nvcontrol.verbose then
-		print("Running: " .. cmd)
+		print("nvcontrol.lua: Running: " .. cmd)
 	end
 	os.execute(cmd)
 end
 
 local function backtick(pipeline)
 	if nvcontrol.verbose then
-		print("Running `" .. pipeline .. "`")
+		print("nvcontrol.lua: Running `" .. pipeline .. "`")
 	end
 	local proc = io.popen(pipeline)
 	local output = proc:read("*a")
