@@ -43,7 +43,11 @@ if not configChunk then
 end
 
 --[[ Run the config file in a restricted environment ]]
-local config = {XScreen = nvcontrol.XScreen}
+local config = {
+	XScreen = nvcontrol.XScreen,
+	ipairs = ipairs,
+	table = table
+}
 setfenv(configChunk, config)
 configChunk()
 
