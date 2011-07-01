@@ -23,6 +23,12 @@ nvcontrol.XScreen(":0.0")
 59.97 Hz
 
 ]]
+
+--[[ Data ]]
+local nv = "nvidia-settings "
+local knownAttributes = {}
+nvcontrol = {}
+
 --[[ Utility Functions ]]
 
 local function do_command(cmd)
@@ -50,7 +56,8 @@ local function trim(s)
 end
 
 local function initializeAttributeList(list)
-	local proc = io.popen("nvidia-settings -e list")
+	local cmd = nv .. "-e list"
+	local proc = io.popen(cmd)
 	for v in proc:lines() do
 		local line = trim(v)
 		if #line > 0 then
@@ -66,23 +73,20 @@ end
 
 local function nvidiaSettings(tgt)
 	if rawget(tgt, "ctrldisplay") ~= nil then
-		return "nvidia-settings --ctrl-display=" .. rawget(tgt, "ctrldisplay")
+		return nv .. "--ctrl-display=" .. rawget(tgt, "ctrldisplay")
 	else
-		return "nvidia-settings"
+		return nv
 	end
 
 end
 
---[[ Data ]]
-local knownAttributes = {}
-nvcontrol = {}
 
 --[[ Metatable Methods ]]
 
 -- Getter
 local function setAttribute(tgt, attr, value)
 	if knownAttributes[attr] == nil then
-		error("nvidia-settings knows no attribute named " .. attr, 2)
+		error(nv .. "knows no attribute named " .. attr, 2)
 	end
 	if value == true then
 		value = 1
@@ -104,7 +108,7 @@ end
 -- Setter
 local function getAttribute(tgt, attr)
 	if knownAttributes[attr] == nil then
-		error("nvidia-settings knows no attribute named " .. attr, 2)
+		error(nv .. "knows no attribute named " .. attr, 2)
 	end
 	local cmd = ([[%s --terse -q %s/%s]]):format(
 		nvidiaSettings(tgt),
@@ -114,7 +118,7 @@ local function getAttribute(tgt, attr)
 	local output = trim(backtick(cmd))
 	if #output == 0 then
 		error(
-			("Could not get attribute %s on target %s - nvidia-settings printed a message to stderr")
+			("Could not get attribute %s on target %s - look for a message on stderr")
 			:format(
 				attr,
 				tgt.id
