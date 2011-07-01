@@ -35,6 +35,12 @@ local function foreach(list, func)
 	end
 end
 
+local function print_step(step)
+	print()
+	print("------------------------------------------------------")
+	print(step)
+end
+
 --[[ Main Functions ]]
 
 local function enable(masters, nonmasters)
