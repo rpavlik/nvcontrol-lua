@@ -1,5 +1,21 @@
 #!/usr/bin/env lua
 require("nvcontrol.framelock")
+
+-- Figure out where we're running so we don't go over the network needlessly
+myhost = os.getenv("HOST")
+hosts = {
+	challenger = "challenger.vrac.iastate.edu",
+	columbia = "columbia.vrac.iastate.edu",
+}
+
+for shortname, hostname in pairs(hosts) do
+	if myhost == hostname then
+		print("Running on " .. shortname)
+		hosts[shortname] = ""
+	end
+end
+
+
 --[[ Configuration Section ]]--
 
 --[[
@@ -30,28 +46,17 @@ challenger.vrac:~/src/framelocker> nvidia-settings -q screens -q gpus -q framelo
     [0] challenger.vrac.iastate.edu:0[vcs:0] (NVIDIA QuadroPlex 7000)
 ]]
 
-host = os.getenv("HOST")
-if host == "challenger.vrac.iastate.edu" then
-	print("OK, running on Challenger")
-	challenger, columbia = "", "columbia.vrac.iastate.edu"
-elseif host == "columbia.vrac.iastate.edu" then
-	print("OK, running on Columbia")
-	challenger, columbia = "challenger.vrac.iastate.edu", ""
-else
-	print("You are brave - not running on either machine!")
-	challenger, columbia = "challenger.vrac.iastate.edu", "columbia.vrac.iastate.edu"
-end
-
 masters = {
-	nvcontrol.XScreen(challenger .. ":0.0"),
+	nvcontrol.XScreen(hosts.challenger .. ":0.0"),
 }
 nonmasters = {
-	nvcontrol.XScreen(challenger .. ":0.1"),
-	nvcontrol.XScreen(challenger .. ":0.2"),
-	nvcontrol.XScreen(challenger .. ":0.3"),
-	--nvcontrol.XScreen(columbia .. ":0.0"),
+	nvcontrol.XScreen(hosts.challenger .. ":0.1"),
+	nvcontrol.XScreen(hosts.challenger .. ":0.2"),
+	nvcontrol.XScreen(hosts.challenger .. ":0.3"),
+	--nvcontrol.XScreen(hosts.columbia .. ":0.0"),
 }
 
+--[[ Handle command line ]]
 commands = {
 	on = nvcontrol.framelock.enable;
 	off = nvcontrol.framelock.disable;
