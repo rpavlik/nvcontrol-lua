@@ -56,3 +56,4 @@ nvcontrol = {
 	XScreen = createXScreen
 }
 
+return nvcontrol
