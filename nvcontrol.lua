@@ -68,6 +68,10 @@ local function initializeAttributeList(list)
 	if nvcontrol.verbose then
 		print("nvcontrol.lua: " .. tostring(#list) .. " attributes recognized.")
 	end
+	if #list == 0 then
+		error("Could not get an attribute list! " ..
+			"Tried command '" .. cmd .. "' and got no (usable) output.")
+	end
 	return list
 end
 
