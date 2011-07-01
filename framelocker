@@ -1,7 +1,18 @@
 #!/usr/bin/env lua
 require("nvcontrol.framelock")
 
--- Determine what config file to use.
+--[[
+Original author: Ryan Pavlik <rpavlik@iastate.edu> <abiryan@ryand.net>
+http://academic.cleardefinition.com
+
+//          Copyright Iowa State University 2011.
+// Distributed under the Boost Software License, Version 1.0.
+//    (See accompanying file LICENSE_1_0.txt or copy at
+//          http://www.boost.org/LICENSE_1_0.txt)
+
+]]
+
+--[[ Determine what config file to use. ]]
 local configFn = os.getenv("HOME") .. "/.framelocker.conf.lua"
 local args = {}
 for _, arg in ipairs{...} do
@@ -12,26 +23,25 @@ for _, arg in ipairs{...} do
 	end
 end
 
+--[[ Load the config file, and remove references to our hostname for efficiency ]]
 print("Loading config file " .. configFn)
 local configFile, err = io.open(configFn, "r")
 if not configFile then
 	error("Could not open config file " .. configFn .. " - got error " .. tostring(err), 2)
 end
 
-
--- Figure out where we're running so we don't go over the network needlessly
 local myhost = os.getenv("HOST")
-local configString = configFile:read("*a")
-configString = configString:gsub(myhost, "")
+local configString = configFile:read("*a"):gsub(myhost, "")
 configFile:close()
-doConfig, err = loadstring(configString)
-if not doConfig then
+configChunk, err = loadstring(configString)
+if not configChunk then
 	error("Could not load config file as Lua! Got error " .. err)
 end
 
+--[[ Run the config file in a restricted environment ]]
 local config = {XScreen = nvcontrol.XScreen}
-setfenv(doConfig, config)
-doConfig()
+setfenv(configChunk, config)
+configChunk()
 
 if type(config.masters) ~= "table" or #(config.masters) < 1 then
 	error("Config file needs to specify a table named masters containing at least one screen!")
