@@ -138,7 +138,10 @@ end
 -- XScreen
 local XScreenMT = {__index = getAttribute, __newindex = setAttribute, __tostring = screenToString }
 local function createXScreen(name)
-	local s = { id = name, ctrldisplay = name }
+	local s = { id = name }
+	if name ~= os.getenv("DISPLAY") then
+		s.ctrldisplay = name
+	end
 	setmetatable(s, XScreenMT)
 	return s
 end
