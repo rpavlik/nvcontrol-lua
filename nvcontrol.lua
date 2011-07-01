@@ -9,9 +9,10 @@ an X screen.  Attributes can be accessed with . for getting and setting,
 where permitted.
 
 nvcontrol.verbose - set to true to see all command lines executed along with
-additional debug info.
+additional debug info. If the environment variable NVCONTROL_VERBOSE is "1",
+this defaults to true.
 
-Example:
+Example interactive session:
 
 $ lua -l nvcontrol
 Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
@@ -19,6 +20,7 @@ Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
 > print(tostring(s))
 nvcontrol.XScreen(":0.0")
 > print(s.RefreshRate)
+59.97 Hz
 
 ]]
 --[[ Utility Functions ]]
@@ -76,6 +78,8 @@ local knownAttributes = {}
 nvcontrol = {}
 
 --[[ Metatable Methods ]]
+
+-- Getter
 local function setAttribute(tgt, attr, value)
 	if knownAttributes[attr] == nil then
 		error("nvidia-settings knows no attribute named " .. attr, 2)
@@ -97,6 +101,7 @@ local function setAttribute(tgt, attr, value)
 	end
 end
 
+-- Setter
 local function getAttribute(tgt, attr)
 	if knownAttributes[attr] == nil then
 		error("nvidia-settings knows no attribute named " .. attr, 2)
@@ -119,11 +124,14 @@ local function getAttribute(tgt, attr)
 	return output
 end
 
+-- tostring for XScreens
 local function screenToString(screen)
 	return ([[nvcontrol.XScreen("%s")]]):format(screen.id)
 end
 
---[[ Object Creation Methods ]]
+--[[ Object Creation Methods and Metatables ]]
+
+-- XScreen
 local XScreenMT = {__index = getAttribute, __newindex = setAttribute, __tostring = screenToString }
 local function createXScreen(name)
 	local s = { id = name, ctrldisplay = name }
@@ -132,8 +140,8 @@ local function createXScreen(name)
 end
 
 --[[ Initialization ]]
-initializeAttributeList(knownAttributes)
-nvcontrol.debug = false
+nvcontrol.verbose = (os.getenv("NVCONTROL_VERBOSE") == "1")
 nvcontrol.XScreen = createXScreen
+initializeAttributeList(knownAttributes)
 
 return nvcontrol
