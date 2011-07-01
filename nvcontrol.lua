@@ -12,6 +12,9 @@ nvcontrol.verbose - set to true to see all command lines executed along with
 additional debug info. If the environment variable NVCONTROL_VERBOSE is "1",
 this defaults to true.
 
+nvcontrol.dryrun - set to true to just have the commands printed, not actually run.
+If the environment variable NVCONTROL_DRYRUN is "1", this defaults to true.
+
 Example interactive session:
 
 $ lua -l nvcontrol
@@ -43,10 +46,13 @@ nvcontrol = {}
 --[[ Utility Functions ]]
 
 local function do_command(cmd)
-	if nvcontrol.verbose then
+	if nvcontrol.verbose or nvcontrol.dryrun then
 		print("nvcontrol.lua: Running: " .. cmd)
 	else
 		cmd = cmd .. " > /dev/null"
+	end
+	if nvcontrol.dryrun then
+		return 0
 	end
 	local status = os.execute(cmd)
 	if nvcontrol.verbose then
@@ -56,8 +62,11 @@ local function do_command(cmd)
 end
 
 local function backtick(pipeline)
-	if nvcontrol.verbose then
+	if nvcontrol.verbose or nvcontrol.dryrun then
 		print("nvcontrol.lua: Running `" .. pipeline .. "`")
+	end
+	if nvcontrol.dryrun then
+		return "`" .. pipeline .. "`"
 	end
 	local proc = io.popen(pipeline)
 	local output = proc:read("*a")
@@ -73,6 +82,9 @@ local function trim(s)
 end
 
 local function initializeAttributeList(list)
+	if nvcontrol.dryrun then
+		return
+	end
 	local cmd = nv .. "-e list"
 	local proc = io.popen(cmd)
 	for v in proc:lines() do
@@ -106,7 +118,7 @@ end
 
 -- Getter
 local function setAttribute(tgt, attr, value)
-	if knownAttributes[attr] == nil then
+	if knownAttributes[attr] == nil and not nvcontrol.dryrun then
 		error(nv .. "knows no attribute named " .. attr, 2)
 	end
 	if value == true then
@@ -129,7 +141,7 @@ end
 
 -- Setter
 local function getAttribute(tgt, attr)
-	if knownAttributes[attr] == nil then
+	if knownAttributes[attr] == nil and not nvcontrol.dryrun then
 		error(nv .. "knows no attribute named " .. attr, 2)
 	end
 	local cmd = ([[%s --terse -q %s/%s]]):format(
@@ -170,6 +182,7 @@ end
 
 --[[ Initialization ]]
 nvcontrol.verbose = (os.getenv("NVCONTROL_VERBOSE") == "1")
+nvcontrol.dryrun = (os.getenv("NVCONTROL_DRYRUN") == "1")
 nvcontrol.XScreen = createXScreen
 initializeAttributeList(knownAttributes)
 
