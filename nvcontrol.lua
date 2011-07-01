@@ -42,12 +42,31 @@ local function trim(s)
   return (s:gsub("^%s*(.-)%s*$", "%1"))
 end
 
+local function initializeAttributeList(list)
+	local proc = io.popen("nvidia-settings -e list")
+	for v in proc:lines() do
+		local line = trim(v)
+		if #line > 0 then
+			list[line] = true
+			table.insert(list, line)
+		end
+	end
+	if nvcontrol.verbose then
+		print("nvcontrol.lua: " .. tostring(#list) .. " attributes recognized.")
+	end
+	return list
+end
+
 
 --[[ Data ]]
+local knownAttributes = {}
 nvcontrol = {}
 
 --[[ Metatable Methods ]]
 local function setAttribute(tgt, attr, value)
+	if knownAttributes[attr] == nil then
+		error("nvidia-settings knows no attribute named " .. attr, 2)
+	end
 	if value == true then
 		value = 1
 	elseif value == false then
@@ -97,6 +116,7 @@ local function createXScreen(name)
 end
 
 --[[ Initialization ]]
+initializeAttributeList(knownAttributes)
 nvcontrol = {
 	XScreen = createXScreen
 }
